@@ -7,8 +7,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/maze_solver_gui.dir/src/Button.cpp.obj.d"
   "CMakeFiles/maze_solver_gui.dir/src/DFSSolver.cpp.obj"
   "CMakeFiles/maze_solver_gui.dir/src/DFSSolver.cpp.obj.d"
-  "CMakeFiles/maze_solver_gui.dir/src/ImageExtractor.cpp.obj"
-  "CMakeFiles/maze_solver_gui.dir/src/ImageExtractor.cpp.obj.d"
   "CMakeFiles/maze_solver_gui.dir/src/Maze.cpp.obj"
   "CMakeFiles/maze_solver_gui.dir/src/Maze.cpp.obj.d"
   "CMakeFiles/maze_solver_gui.dir/src/MazeRenderer.cpp.obj"

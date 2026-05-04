@@ -1,16 +1,8 @@
 #include "App.h"
 #include "Button.h"
-#include "ImageExtractor.h"
 #include "Colors.h"
 #include <iostream>
 #include <random>
-#include <cstdlib>
-
-#ifdef _WIN32
-  #define WIN32_LEAN_AND_MEAN
-  #include <windows.h>
-  #include <commdlg.h>
-#endif
 
 // ── Preset Mazes ──────────────────────────────────────────────
 static const std::vector<std::vector<std::string>> PRESETS = {
@@ -66,50 +58,23 @@ static const std::vector<std::vector<std::string>> PRESETS = {
         "# ######### ##### ##### #",
         "#                       E",
         "#########################"
+    },
+    {   // 3: Classic (square)
+        "#############",
+        "S     #     #",
+        "# ### # ### #",
+        "# # #   # # #",
+        "# # ##### # #",
+        "#   #   #   #",
+        "### # # # ###",
+        "#     #     #",
+        "# ##### ### #",
+        "# #   #   # #",
+        "# # ### # # #",
+        "#       #   E",
+        "#############"
     }
 };
-
-// ── File Dialog ───────────────────────────────────────────────
-std::string App::openFileDialog()
-{
-#ifdef _WIN32
-    OPENFILENAMEA ofn;
-    char szFile[260] = {0};
-    ZeroMemory(&ofn, sizeof(ofn));
-    ofn.lStructSize  = sizeof(ofn);
-    ofn.hwndOwner    = NULL;
-    ofn.lpstrFile    = szFile;
-    ofn.nMaxFile     = sizeof(szFile);
-    ofn.lpstrFilter  = "Image Files\0*.png;*.jpg;*.jpeg;*.bmp\0All\0*.*\0";
-    ofn.nFilterIndex = 1;
-    ofn.Flags        = OFN_PATHMUSTEXIST | OFN_FILEMUSTEXIST;
-    if (GetOpenFileNameA(&ofn))
-        return std::string(szFile);
-    return "";
-#else
-    std::string cmd;
-    if (system("which zenity > /dev/null 2>&1") == 0)
-        cmd = "zenity --file-selection --title='Select Maze Image' "
-              "--file-filter='*.png *.jpg *.jpeg *.bmp' 2>/dev/null";
-    else {
-        std::cout << "Enter image path: ";
-        std::string path;
-        std::getline(std::cin, path);
-        return path;
-    }
-    FILE* pipe = popen(cmd.c_str(), "r");
-    if (!pipe) return "";
-    char buf[512];
-    std::string result;
-    while (fgets(buf, sizeof(buf), pipe))
-        result += buf;
-    pclose(pipe);
-    while (!result.empty() &&
-           (result.back() == '\n' || result.back() == '\r'))
-        result.pop_back();
-    return result;
-#endif
-}
 
 // ── Constructor ───────────────────────────────────────────────
 App::App()
@@ -120,15 +85,14 @@ App::App()
 {
     window_.setFramerateLimit(60);
 
-    // Load font — try several locations
+    // Load font
     bool fontLoaded = font_.openFromFile("assets/fonts/arial.ttf");
 
     if (!fontLoaded) {
 #ifdef _WIN32
         fontLoaded = font_.openFromFile("C:/Windows/Fonts/arial.ttf");
         if (!fontLoaded)
-            fontLoaded = font_.openFromFile(
-                "C:/Windows/Fonts/segoeui.ttf");
+            fontLoaded = font_.openFromFile("C:/Windows/Fonts/segoeui.ttf");
 #elif __APPLE__
         fontLoaded = font_.openFromFile("/Library/Fonts/Arial.ttf");
         if (!fontLoaded)
@@ -148,7 +112,7 @@ App::App()
         std::cerr << "WARNING: No font loaded! "
                      "Place arial.ttf in assets/fonts/\n";
 
-    // Build panel now that font_ is ready
+    // Build panel now that font is ready
     panel_ = UIPanel(0, 0, PANEL_W, WIN_H, font_);
 
     setupButtons();
@@ -164,7 +128,8 @@ void App::setupButtons()
     float by  = 100.f;
     float gap = 33.f;
 
-    auto addBtn = [&](const std::string& label, std::function<void()> cb)
+    auto addBtn = [&](const std::string& label,
+                      std::function<void()> cb)
     {
         MazeButton btn(bx, by, bw, bh, label, font_);
         btn.setCallback(cb);
@@ -172,25 +137,30 @@ void App::setupButtons()
         by += gap;
     };
 
-    addBtn("Simple Maze",           [this]{ loadPresetMaze(0); });
-    addBtn("Medium Maze",           [this]{ loadPresetMaze(1); });
-    addBtn("Large Maze",            [this]{ loadPresetMaze(2); });
-    addBtn("Random Maze",           [this]{ generateRandomMaze(); });
-    by += 8.f;
-    addBtn("Load Image Maze",       [this]{ loadImageMaze(); });
-    by += 8.f;
-    addBtn("Solve BFS",             [this]{ solveBFS(); });
-    addBtn("Solve DFS",             [this]{ solveDFS(); });
-    addBtn("Solve Both",            [this]{ solveAll(); });
-    addBtn("Clear Solution",        [this]{ clearSolution(); });
-    by += 8.f;
-    addBtn("Toggle BFS View",       [this]{ toggleBFS(); });
-    addBtn("Toggle DFS View",       [this]{ toggleDFS(); });
-    addBtn("Toggle Explored Nodes", [this]{ toggleExplored(); });
-    addBtn("Animate Solution",      [this]{ toggleAnimate(); });
-    by += 8.f;
-    addBtn("Set Start (click)",     [this]{ placeStart(); });
-    addBtn("Set End   (click)",     [this]{ placeEnd(); });
+    addBtn("Simple Maze (11x11)",  [this]{ loadPresetMaze(0); });
+    addBtn("Medium Maze (19x17)",  [this]{ loadPresetMaze(1); });
+    addBtn("Large Maze  (25x19)",  [this]{ loadPresetMaze(2); });
+    addBtn("Classic Maze (13x13)", [this]{ loadPresetMaze(3); });
+    addBtn("Random Maze",          [this]{ generateRandomMaze(); });
+
+    by += 10.f;
+
+    addBtn("Solve BFS",            [this]{ solveBFS(); });
+    addBtn("Solve DFS",            [this]{ solveDFS(); });
+    addBtn("Solve Both (BFS+DFS)", [this]{ solveAll(); });
+    addBtn("Clear Solution",       [this]{ clearSolution(); });
+
+    by += 10.f;
+
+    addBtn("Toggle BFS Path",      [this]{ toggleBFS(); });
+    addBtn("Toggle DFS Path",      [this]{ toggleDFS(); });
+    addBtn("Toggle Explored Nodes",[this]{ toggleExplored(); });
+    addBtn("Animate Solution",     [this]{ toggleAnimate(); });
+
+    by += 10.f;
+
+    addBtn("Set Start (click)",    [this]{ placeStart(); });
+    addBtn("Set End   (click)",    [this]{ placeEnd(); });
 }
 
 // ── Maze Loading ──────────────────────────────────────────────
@@ -208,27 +178,6 @@ void App::generateRandomMaze()
     maze_ = Maze::generateRandom(21, 31, rd());
     updateMaze();
     panel_.setStatus("Random maze generated");
-}
-
-void App::loadImageMaze()
-{
-    panel_.setStatus("Opening file dialog...");
-    std::string path = openFileDialog();
-    if (path.empty()) {
-        panel_.setStatus("Cancelled");
-        return;
-    }
-    panel_.setStatus("Processing image...");
-    Maze extracted = ImageExtractor::extractFromImage(path);
-    if (!extracted.isValid()) {
-        panel_.setStatus("Failed to extract maze!");
-        return;
-    }
-    maze_ = extracted;
-    updateMaze();
-    panel_.setStatus("Image loaded! Grid: "
-        + std::to_string(maze_.getRows()) + "x"
-        + std::to_string(maze_.getCols()));
 }
 
 void App::updateMaze()
@@ -361,16 +310,14 @@ void App::handleMazeClick(float mx, float my)
     }
 }
 
-// ── Event Loop — SFML 3 style ─────────────────────────────────
+// ── Event Loop ────────────────────────────────────────────────
 void App::handleEvents()
 {
     while (auto event = window_.pollEvent())
     {
-        // Window closed
         if (event->is<sf::Event::Closed>())
             window_.close();
 
-        // Key pressed
         if (const auto* kp = event->getIf<sf::Event::KeyPressed>())
         {
             using Key = sf::Keyboard::Key;
@@ -379,8 +326,8 @@ void App::handleEvents()
                 case Key::Num1:   loadPresetMaze(0);    break;
                 case Key::Num2:   loadPresetMaze(1);    break;
                 case Key::Num3:   loadPresetMaze(2);    break;
+                case Key::Num4:   loadPresetMaze(3);    break;
                 case Key::R:      generateRandomMaze(); break;
-                case Key::I:      loadImageMaze();      break;
                 case Key::B:      solveBFS();           break;
                 case Key::D:      solveDFS();           break;
                 case Key::A:      solveAll();           break;
@@ -392,7 +339,6 @@ void App::handleEvents()
             }
         }
 
-        // Mouse button pressed — place start/end
         if (const auto* mb =
                 event->getIf<sf::Event::MouseButtonPressed>())
         {
@@ -404,7 +350,6 @@ void App::handleEvents()
             }
         }
 
-        // Forward all events to the UI panel (buttons)
         panel_.handleEvent(*event, window_);
     }
 }

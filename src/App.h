@@ -16,12 +16,11 @@ public:
 
 private:
     sf::RenderWindow window_;
-    sf::Font         font_;       // font_ must be declared BEFORE panel_
-    sf::Font*        fontPtr_;    // raw pointer passed around safely
+    sf::Font         font_;
 
     Maze         maze_;
     MazeRenderer renderer_;
-    UIPanel      panel_;          // default-constructed first, rebuilt in body
+    UIPanel      panel_;
     BFSSolver    bfsSolver_;
     DFSSolver    dfsSolver_;
 
@@ -29,7 +28,6 @@ private:
     bool        showBFS_      = true;
     bool        showDFS_      = false;
     bool        showExplored_ = true;
-    std::string lastImagePath_;
 
     static const int WIN_W   = 1200;
     static const int WIN_H   = 800;
@@ -42,7 +40,6 @@ private:
 
     void loadPresetMaze(int id);
     void generateRandomMaze();
-    void loadImageMaze();
     void solveBFS();
     void solveDFS();
     void solveAll();
@@ -56,5 +53,4 @@ private:
 
     void updateMaze();
     void handleMazeClick(float mx, float my);
-    std::string openFileDialog();
 };

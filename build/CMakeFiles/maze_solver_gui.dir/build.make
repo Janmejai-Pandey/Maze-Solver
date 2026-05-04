@@ -76,135 +76,120 @@ CMakeFiles/maze_solver_gui.dir/src/main.cpp.obj: CMakeFiles/maze_solver_gui.dir/
 CMakeFiles/maze_solver_gui.dir/src/main.cpp.obj: C:/Users/JaiP/OneDrive/Documents/SDF-2\ PBL/src/main.cpp
 CMakeFiles/maze_solver_gui.dir/src/main.cpp.obj: CMakeFiles/maze_solver_gui.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/maze_solver_gui.dir/src/main.cpp.obj"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/maze_solver_gui.dir/src/main.cpp.obj -MF CMakeFiles\maze_solver_gui.dir\src\main.cpp.obj.d -o CMakeFiles\maze_solver_gui.dir\src\main.cpp.obj -c "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\main.cpp"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/maze_solver_gui.dir/src/main.cpp.obj -MF CMakeFiles\maze_solver_gui.dir\src\main.cpp.obj.d -o CMakeFiles\maze_solver_gui.dir\src\main.cpp.obj -c "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\main.cpp"
 
 CMakeFiles/maze_solver_gui.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/maze_solver_gui.dir/src/main.cpp.i"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\main.cpp" > CMakeFiles\maze_solver_gui.dir\src\main.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\main.cpp" > CMakeFiles\maze_solver_gui.dir\src\main.cpp.i
 
 CMakeFiles/maze_solver_gui.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/maze_solver_gui.dir/src/main.cpp.s"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\main.cpp" -o CMakeFiles\maze_solver_gui.dir\src\main.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\main.cpp" -o CMakeFiles\maze_solver_gui.dir\src\main.cpp.s
 
 CMakeFiles/maze_solver_gui.dir/src/App.cpp.obj: CMakeFiles/maze_solver_gui.dir/flags.make
 CMakeFiles/maze_solver_gui.dir/src/App.cpp.obj: CMakeFiles/maze_solver_gui.dir/includes_CXX.rsp
 CMakeFiles/maze_solver_gui.dir/src/App.cpp.obj: C:/Users/JaiP/OneDrive/Documents/SDF-2\ PBL/src/App.cpp
 CMakeFiles/maze_solver_gui.dir/src/App.cpp.obj: CMakeFiles/maze_solver_gui.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/maze_solver_gui.dir/src/App.cpp.obj"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/maze_solver_gui.dir/src/App.cpp.obj -MF CMakeFiles\maze_solver_gui.dir\src\App.cpp.obj.d -o CMakeFiles\maze_solver_gui.dir\src\App.cpp.obj -c "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\App.cpp"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/maze_solver_gui.dir/src/App.cpp.obj -MF CMakeFiles\maze_solver_gui.dir\src\App.cpp.obj.d -o CMakeFiles\maze_solver_gui.dir\src\App.cpp.obj -c "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\App.cpp"
 
 CMakeFiles/maze_solver_gui.dir/src/App.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/maze_solver_gui.dir/src/App.cpp.i"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\App.cpp" > CMakeFiles\maze_solver_gui.dir\src\App.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\App.cpp" > CMakeFiles\maze_solver_gui.dir\src\App.cpp.i
 
 CMakeFiles/maze_solver_gui.dir/src/App.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/maze_solver_gui.dir/src/App.cpp.s"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\App.cpp" -o CMakeFiles\maze_solver_gui.dir\src\App.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\App.cpp" -o CMakeFiles\maze_solver_gui.dir\src\App.cpp.s
 
 CMakeFiles/maze_solver_gui.dir/src/Maze.cpp.obj: CMakeFiles/maze_solver_gui.dir/flags.make
 CMakeFiles/maze_solver_gui.dir/src/Maze.cpp.obj: CMakeFiles/maze_solver_gui.dir/includes_CXX.rsp
 CMakeFiles/maze_solver_gui.dir/src/Maze.cpp.obj: C:/Users/JaiP/OneDrive/Documents/SDF-2\ PBL/src/Maze.cpp
 CMakeFiles/maze_solver_gui.dir/src/Maze.cpp.obj: CMakeFiles/maze_solver_gui.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/maze_solver_gui.dir/src/Maze.cpp.obj"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/maze_solver_gui.dir/src/Maze.cpp.obj -MF CMakeFiles\maze_solver_gui.dir\src\Maze.cpp.obj.d -o CMakeFiles\maze_solver_gui.dir\src\Maze.cpp.obj -c "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\Maze.cpp"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/maze_solver_gui.dir/src/Maze.cpp.obj -MF CMakeFiles\maze_solver_gui.dir\src\Maze.cpp.obj.d -o CMakeFiles\maze_solver_gui.dir\src\Maze.cpp.obj -c "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\Maze.cpp"
 
 CMakeFiles/maze_solver_gui.dir/src/Maze.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/maze_solver_gui.dir/src/Maze.cpp.i"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\Maze.cpp" > CMakeFiles\maze_solver_gui.dir\src\Maze.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\Maze.cpp" > CMakeFiles\maze_solver_gui.dir\src\Maze.cpp.i
 
 CMakeFiles/maze_solver_gui.dir/src/Maze.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/maze_solver_gui.dir/src/Maze.cpp.s"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\Maze.cpp" -o CMakeFiles\maze_solver_gui.dir\src\Maze.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\Maze.cpp" -o CMakeFiles\maze_solver_gui.dir\src\Maze.cpp.s
 
 CMakeFiles/maze_solver_gui.dir/src/BFSSolver.cpp.obj: CMakeFiles/maze_solver_gui.dir/flags.make
 CMakeFiles/maze_solver_gui.dir/src/BFSSolver.cpp.obj: CMakeFiles/maze_solver_gui.dir/includes_CXX.rsp
 CMakeFiles/maze_solver_gui.dir/src/BFSSolver.cpp.obj: C:/Users/JaiP/OneDrive/Documents/SDF-2\ PBL/src/BFSSolver.cpp
 CMakeFiles/maze_solver_gui.dir/src/BFSSolver.cpp.obj: CMakeFiles/maze_solver_gui.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/maze_solver_gui.dir/src/BFSSolver.cpp.obj"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/maze_solver_gui.dir/src/BFSSolver.cpp.obj -MF CMakeFiles\maze_solver_gui.dir\src\BFSSolver.cpp.obj.d -o CMakeFiles\maze_solver_gui.dir\src\BFSSolver.cpp.obj -c "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\BFSSolver.cpp"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/maze_solver_gui.dir/src/BFSSolver.cpp.obj -MF CMakeFiles\maze_solver_gui.dir\src\BFSSolver.cpp.obj.d -o CMakeFiles\maze_solver_gui.dir\src\BFSSolver.cpp.obj -c "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\BFSSolver.cpp"
 
 CMakeFiles/maze_solver_gui.dir/src/BFSSolver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/maze_solver_gui.dir/src/BFSSolver.cpp.i"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\BFSSolver.cpp" > CMakeFiles\maze_solver_gui.dir\src\BFSSolver.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\BFSSolver.cpp" > CMakeFiles\maze_solver_gui.dir\src\BFSSolver.cpp.i
 
 CMakeFiles/maze_solver_gui.dir/src/BFSSolver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/maze_solver_gui.dir/src/BFSSolver.cpp.s"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\BFSSolver.cpp" -o CMakeFiles\maze_solver_gui.dir\src\BFSSolver.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\BFSSolver.cpp" -o CMakeFiles\maze_solver_gui.dir\src\BFSSolver.cpp.s
 
 CMakeFiles/maze_solver_gui.dir/src/DFSSolver.cpp.obj: CMakeFiles/maze_solver_gui.dir/flags.make
 CMakeFiles/maze_solver_gui.dir/src/DFSSolver.cpp.obj: CMakeFiles/maze_solver_gui.dir/includes_CXX.rsp
 CMakeFiles/maze_solver_gui.dir/src/DFSSolver.cpp.obj: C:/Users/JaiP/OneDrive/Documents/SDF-2\ PBL/src/DFSSolver.cpp
 CMakeFiles/maze_solver_gui.dir/src/DFSSolver.cpp.obj: CMakeFiles/maze_solver_gui.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/maze_solver_gui.dir/src/DFSSolver.cpp.obj"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/maze_solver_gui.dir/src/DFSSolver.cpp.obj -MF CMakeFiles\maze_solver_gui.dir\src\DFSSolver.cpp.obj.d -o CMakeFiles\maze_solver_gui.dir\src\DFSSolver.cpp.obj -c "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\DFSSolver.cpp"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/maze_solver_gui.dir/src/DFSSolver.cpp.obj -MF CMakeFiles\maze_solver_gui.dir\src\DFSSolver.cpp.obj.d -o CMakeFiles\maze_solver_gui.dir\src\DFSSolver.cpp.obj -c "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\DFSSolver.cpp"
 
 CMakeFiles/maze_solver_gui.dir/src/DFSSolver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/maze_solver_gui.dir/src/DFSSolver.cpp.i"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\DFSSolver.cpp" > CMakeFiles\maze_solver_gui.dir\src\DFSSolver.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\DFSSolver.cpp" > CMakeFiles\maze_solver_gui.dir\src\DFSSolver.cpp.i
 
 CMakeFiles/maze_solver_gui.dir/src/DFSSolver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/maze_solver_gui.dir/src/DFSSolver.cpp.s"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\DFSSolver.cpp" -o CMakeFiles\maze_solver_gui.dir\src\DFSSolver.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\DFSSolver.cpp" -o CMakeFiles\maze_solver_gui.dir\src\DFSSolver.cpp.s
 
 CMakeFiles/maze_solver_gui.dir/src/MazeRenderer.cpp.obj: CMakeFiles/maze_solver_gui.dir/flags.make
 CMakeFiles/maze_solver_gui.dir/src/MazeRenderer.cpp.obj: CMakeFiles/maze_solver_gui.dir/includes_CXX.rsp
 CMakeFiles/maze_solver_gui.dir/src/MazeRenderer.cpp.obj: C:/Users/JaiP/OneDrive/Documents/SDF-2\ PBL/src/MazeRenderer.cpp
 CMakeFiles/maze_solver_gui.dir/src/MazeRenderer.cpp.obj: CMakeFiles/maze_solver_gui.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/maze_solver_gui.dir/src/MazeRenderer.cpp.obj"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/maze_solver_gui.dir/src/MazeRenderer.cpp.obj -MF CMakeFiles\maze_solver_gui.dir\src\MazeRenderer.cpp.obj.d -o CMakeFiles\maze_solver_gui.dir\src\MazeRenderer.cpp.obj -c "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\MazeRenderer.cpp"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/maze_solver_gui.dir/src/MazeRenderer.cpp.obj -MF CMakeFiles\maze_solver_gui.dir\src\MazeRenderer.cpp.obj.d -o CMakeFiles\maze_solver_gui.dir\src\MazeRenderer.cpp.obj -c "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\MazeRenderer.cpp"
 
 CMakeFiles/maze_solver_gui.dir/src/MazeRenderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/maze_solver_gui.dir/src/MazeRenderer.cpp.i"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\MazeRenderer.cpp" > CMakeFiles\maze_solver_gui.dir\src\MazeRenderer.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\MazeRenderer.cpp" > CMakeFiles\maze_solver_gui.dir\src\MazeRenderer.cpp.i
 
 CMakeFiles/maze_solver_gui.dir/src/MazeRenderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/maze_solver_gui.dir/src/MazeRenderer.cpp.s"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\MazeRenderer.cpp" -o CMakeFiles\maze_solver_gui.dir\src\MazeRenderer.cpp.s
-
-CMakeFiles/maze_solver_gui.dir/src/ImageExtractor.cpp.obj: CMakeFiles/maze_solver_gui.dir/flags.make
-CMakeFiles/maze_solver_gui.dir/src/ImageExtractor.cpp.obj: CMakeFiles/maze_solver_gui.dir/includes_CXX.rsp
-CMakeFiles/maze_solver_gui.dir/src/ImageExtractor.cpp.obj: C:/Users/JaiP/OneDrive/Documents/SDF-2\ PBL/src/ImageExtractor.cpp
-CMakeFiles/maze_solver_gui.dir/src/ImageExtractor.cpp.obj: CMakeFiles/maze_solver_gui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/maze_solver_gui.dir/src/ImageExtractor.cpp.obj"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/maze_solver_gui.dir/src/ImageExtractor.cpp.obj -MF CMakeFiles\maze_solver_gui.dir\src\ImageExtractor.cpp.obj.d -o CMakeFiles\maze_solver_gui.dir\src\ImageExtractor.cpp.obj -c "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\ImageExtractor.cpp"
-
-CMakeFiles/maze_solver_gui.dir/src/ImageExtractor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/maze_solver_gui.dir/src/ImageExtractor.cpp.i"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\ImageExtractor.cpp" > CMakeFiles\maze_solver_gui.dir\src\ImageExtractor.cpp.i
-
-CMakeFiles/maze_solver_gui.dir/src/ImageExtractor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/maze_solver_gui.dir/src/ImageExtractor.cpp.s"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\ImageExtractor.cpp" -o CMakeFiles\maze_solver_gui.dir\src\ImageExtractor.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\MazeRenderer.cpp" -o CMakeFiles\maze_solver_gui.dir\src\MazeRenderer.cpp.s
 
 CMakeFiles/maze_solver_gui.dir/src/Button.cpp.obj: CMakeFiles/maze_solver_gui.dir/flags.make
 CMakeFiles/maze_solver_gui.dir/src/Button.cpp.obj: CMakeFiles/maze_solver_gui.dir/includes_CXX.rsp
 CMakeFiles/maze_solver_gui.dir/src/Button.cpp.obj: C:/Users/JaiP/OneDrive/Documents/SDF-2\ PBL/src/Button.cpp
 CMakeFiles/maze_solver_gui.dir/src/Button.cpp.obj: CMakeFiles/maze_solver_gui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/maze_solver_gui.dir/src/Button.cpp.obj"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/maze_solver_gui.dir/src/Button.cpp.obj -MF CMakeFiles\maze_solver_gui.dir\src\Button.cpp.obj.d -o CMakeFiles\maze_solver_gui.dir\src\Button.cpp.obj -c "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\Button.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/maze_solver_gui.dir/src/Button.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/maze_solver_gui.dir/src/Button.cpp.obj -MF CMakeFiles\maze_solver_gui.dir\src\Button.cpp.obj.d -o CMakeFiles\maze_solver_gui.dir\src\Button.cpp.obj -c "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\Button.cpp"
 
 CMakeFiles/maze_solver_gui.dir/src/Button.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/maze_solver_gui.dir/src/Button.cpp.i"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\Button.cpp" > CMakeFiles\maze_solver_gui.dir\src\Button.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\Button.cpp" > CMakeFiles\maze_solver_gui.dir\src\Button.cpp.i
 
 CMakeFiles/maze_solver_gui.dir/src/Button.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/maze_solver_gui.dir/src/Button.cpp.s"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\Button.cpp" -o CMakeFiles\maze_solver_gui.dir\src\Button.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\Button.cpp" -o CMakeFiles\maze_solver_gui.dir\src\Button.cpp.s
 
 CMakeFiles/maze_solver_gui.dir/src/UIPanel.cpp.obj: CMakeFiles/maze_solver_gui.dir/flags.make
 CMakeFiles/maze_solver_gui.dir/src/UIPanel.cpp.obj: CMakeFiles/maze_solver_gui.dir/includes_CXX.rsp
 CMakeFiles/maze_solver_gui.dir/src/UIPanel.cpp.obj: C:/Users/JaiP/OneDrive/Documents/SDF-2\ PBL/src/UIPanel.cpp
 CMakeFiles/maze_solver_gui.dir/src/UIPanel.cpp.obj: CMakeFiles/maze_solver_gui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/maze_solver_gui.dir/src/UIPanel.cpp.obj"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/maze_solver_gui.dir/src/UIPanel.cpp.obj -MF CMakeFiles\maze_solver_gui.dir\src\UIPanel.cpp.obj.d -o CMakeFiles\maze_solver_gui.dir\src\UIPanel.cpp.obj -c "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\UIPanel.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/maze_solver_gui.dir/src/UIPanel.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/maze_solver_gui.dir/src/UIPanel.cpp.obj -MF CMakeFiles\maze_solver_gui.dir\src\UIPanel.cpp.obj.d -o CMakeFiles\maze_solver_gui.dir\src\UIPanel.cpp.obj -c "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\UIPanel.cpp"
 
 CMakeFiles/maze_solver_gui.dir/src/UIPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/maze_solver_gui.dir/src/UIPanel.cpp.i"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\UIPanel.cpp" > CMakeFiles\maze_solver_gui.dir\src\UIPanel.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\UIPanel.cpp" > CMakeFiles\maze_solver_gui.dir\src\UIPanel.cpp.i
 
 CMakeFiles/maze_solver_gui.dir/src/UIPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/maze_solver_gui.dir/src/UIPanel.cpp.s"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\UIPanel.cpp" -o CMakeFiles\maze_solver_gui.dir\src\UIPanel.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\src\UIPanel.cpp" -o CMakeFiles\maze_solver_gui.dir\src\UIPanel.cpp.s
 
 # Object files for target maze_solver_gui
 maze_solver_gui_OBJECTS = \
@@ -214,7 +199,6 @@ maze_solver_gui_OBJECTS = \
 "CMakeFiles/maze_solver_gui.dir/src/BFSSolver.cpp.obj" \
 "CMakeFiles/maze_solver_gui.dir/src/DFSSolver.cpp.obj" \
 "CMakeFiles/maze_solver_gui.dir/src/MazeRenderer.cpp.obj" \
-"CMakeFiles/maze_solver_gui.dir/src/ImageExtractor.cpp.obj" \
 "CMakeFiles/maze_solver_gui.dir/src/Button.cpp.obj" \
 "CMakeFiles/maze_solver_gui.dir/src/UIPanel.cpp.obj"
 
@@ -227,22 +211,16 @@ maze_solver_gui.exe: CMakeFiles/maze_solver_gui.dir/src/Maze.cpp.obj
 maze_solver_gui.exe: CMakeFiles/maze_solver_gui.dir/src/BFSSolver.cpp.obj
 maze_solver_gui.exe: CMakeFiles/maze_solver_gui.dir/src/DFSSolver.cpp.obj
 maze_solver_gui.exe: CMakeFiles/maze_solver_gui.dir/src/MazeRenderer.cpp.obj
-maze_solver_gui.exe: CMakeFiles/maze_solver_gui.dir/src/ImageExtractor.cpp.obj
 maze_solver_gui.exe: CMakeFiles/maze_solver_gui.dir/src/Button.cpp.obj
 maze_solver_gui.exe: CMakeFiles/maze_solver_gui.dir/src/UIPanel.cpp.obj
 maze_solver_gui.exe: CMakeFiles/maze_solver_gui.dir/build.make
 maze_solver_gui.exe: C:/msys64/mingw64/lib/libsfml-graphics.dll.a
 maze_solver_gui.exe: C:/msys64/mingw64/lib/libsfml-window.dll.a
 maze_solver_gui.exe: C:/msys64/mingw64/lib/libsfml-system.dll.a
-maze_solver_gui.exe: C:/msys64/mingw64/lib/libopencv_highgui.dll.a
-maze_solver_gui.exe: C:/msys64/mingw64/lib/libopencv_videoio.dll.a
-maze_solver_gui.exe: C:/msys64/mingw64/lib/libopencv_imgcodecs.dll.a
-maze_solver_gui.exe: C:/msys64/mingw64/lib/libopencv_imgproc.dll.a
-maze_solver_gui.exe: C:/msys64/mingw64/lib/libopencv_core.dll.a
 maze_solver_gui.exe: CMakeFiles/maze_solver_gui.dir/linkLibs.rsp
 maze_solver_gui.exe: CMakeFiles/maze_solver_gui.dir/objects1.rsp
 maze_solver_gui.exe: CMakeFiles/maze_solver_gui.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable maze_solver_gui.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable maze_solver_gui.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\maze_solver_gui.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

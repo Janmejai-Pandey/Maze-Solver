@@ -224,30 +224,6 @@ src/DFSSolver.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver_gui.dir\build.make CMakeFiles/maze_solver_gui.dir/src/DFSSolver.cpp.s
 .PHONY : src/DFSSolver.cpp.s
 
-src/ImageExtractor.obj: src/ImageExtractor.cpp.obj
-.PHONY : src/ImageExtractor.obj
-
-# target to build an object file
-src/ImageExtractor.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver_gui.dir\build.make CMakeFiles/maze_solver_gui.dir/src/ImageExtractor.cpp.obj
-.PHONY : src/ImageExtractor.cpp.obj
-
-src/ImageExtractor.i: src/ImageExtractor.cpp.i
-.PHONY : src/ImageExtractor.i
-
-# target to preprocess a source file
-src/ImageExtractor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver_gui.dir\build.make CMakeFiles/maze_solver_gui.dir/src/ImageExtractor.cpp.i
-.PHONY : src/ImageExtractor.cpp.i
-
-src/ImageExtractor.s: src/ImageExtractor.cpp.s
-.PHONY : src/ImageExtractor.s
-
-# target to generate assembly for a file
-src/ImageExtractor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver_gui.dir\build.make CMakeFiles/maze_solver_gui.dir/src/ImageExtractor.cpp.s
-.PHONY : src/ImageExtractor.cpp.s
-
 src/Maze.obj: src/Maze.cpp.obj
 .PHONY : src/Maze.obj
 
@@ -365,9 +341,6 @@ help:
 	@echo ... src/DFSSolver.obj
 	@echo ... src/DFSSolver.i
 	@echo ... src/DFSSolver.s
-	@echo ... src/ImageExtractor.obj
-	@echo ... src/ImageExtractor.i
-	@echo ... src/ImageExtractor.s
 	@echo ... src/Maze.obj
 	@echo ... src/Maze.i
 	@echo ... src/Maze.s

@@ -1,0 +1,50 @@
+[
+{
+  "directory": "C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/maze_solver_gui.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\maze_solver_gui.dir\\src\\main.cpp.obj -c \"C:\\Users\\JaiP\\OneDrive\\Documents\\SDF-2 PBL\\src\\main.cpp\"",
+  "file": "C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/src/main.cpp",
+  "output": "CMakeFiles/maze_solver_gui.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/maze_solver_gui.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\maze_solver_gui.dir\\src\\App.cpp.obj -c \"C:\\Users\\JaiP\\OneDrive\\Documents\\SDF-2 PBL\\src\\App.cpp\"",
+  "file": "C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/src/App.cpp",
+  "output": "CMakeFiles/maze_solver_gui.dir/src/App.cpp.obj"
+},
+{
+  "directory": "C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/maze_solver_gui.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\maze_solver_gui.dir\\src\\Maze.cpp.obj -c \"C:\\Users\\JaiP\\OneDrive\\Documents\\SDF-2 PBL\\src\\Maze.cpp\"",
+  "file": "C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/src/Maze.cpp",
+  "output": "CMakeFiles/maze_solver_gui.dir/src/Maze.cpp.obj"
+},
+{
+  "directory": "C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/maze_solver_gui.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\maze_solver_gui.dir\\src\\BFSSolver.cpp.obj -c \"C:\\Users\\JaiP\\OneDrive\\Documents\\SDF-2 PBL\\src\\BFSSolver.cpp\"",
+  "file": "C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/src/BFSSolver.cpp",
+  "output": "CMakeFiles/maze_solver_gui.dir/src/BFSSolver.cpp.obj"
+},
+{
+  "directory": "C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/maze_solver_gui.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\maze_solver_gui.dir\\src\\DFSSolver.cpp.obj -c \"C:\\Users\\JaiP\\OneDrive\\Documents\\SDF-2 PBL\\src\\DFSSolver.cpp\"",
+  "file": "C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/src/DFSSolver.cpp",
+  "output": "CMakeFiles/maze_solver_gui.dir/src/DFSSolver.cpp.obj"
+},
+{
+  "directory": "C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/maze_solver_gui.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\maze_solver_gui.dir\\src\\MazeRenderer.cpp.obj -c \"C:\\Users\\JaiP\\OneDrive\\Documents\\SDF-2 PBL\\src\\MazeRenderer.cpp\"",
+  "file": "C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/src/MazeRenderer.cpp",
+  "output": "CMakeFiles/maze_solver_gui.dir/src/MazeRenderer.cpp.obj"
+},
+{
+  "directory": "C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/maze_solver_gui.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\maze_solver_gui.dir\\src\\Button.cpp.obj -c \"C:\\Users\\JaiP\\OneDrive\\Documents\\SDF-2 PBL\\src\\Button.cpp\"",
+  "file": "C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/src/Button.cpp",
+  "output": "CMakeFiles/maze_solver_gui.dir/src/Button.cpp.obj"
+},
+{
+  "directory": "C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/maze_solver_gui.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\maze_solver_gui.dir\\src\\UIPanel.cpp.obj -c \"C:\\Users\\JaiP\\OneDrive\\Documents\\SDF-2 PBL\\src\\UIPanel.cpp\"",
+  "file": "C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/src/UIPanel.cpp",
+  "output": "CMakeFiles/maze_solver_gui.dir/src/UIPanel.cpp.obj"
+}
+]
