@@ -27,6 +27,10 @@ events:
     names:
       - "mingw32-make.exe"
     candidate_directories:
+      - "C:/Users/JaiP/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Microsoft VS Code/"
@@ -50,11 +54,21 @@ events:
       - "C:/Users/JaiP/AppData/Local/Programs/Python/Python314/"
       - "C:/Users/JaiP/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
       - "/REGISTRY-NOTFOUND/bin/"
       - "c:/MinGW/bin/"
       - "/MinGW/bin/"
       - "/REGISTRY-NOTFOUND/MinGW/bin/"
     searched_directories:
+      - "C:/Users/JaiP/bin/mingw32-make.exe.com"
+      - "C:/Users/JaiP/bin/mingw32-make.exe"
+      - "C:/Program Files/Git/mingw64/bin/mingw32-make.exe.com"
+      - "C:/Program Files/Git/mingw64/bin/mingw32-make.exe"
+      - "C:/Program Files/Git/usr/local/bin/mingw32-make.exe.com"
+      - "C:/Program Files/Git/usr/local/bin/mingw32-make.exe"
+      - "C:/Program Files/Git/usr/bin/mingw32-make.exe.com"
+      - "C:/Program Files/Git/usr/bin/mingw32-make.exe"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mingw32-make.exe.com"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mingw32-make.exe"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mingw32-make.exe.com"
@@ -95,29 +109,39 @@ events:
     found: "C:/msys64/mingw64/bin/mingw32-make.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\dotnet"
         - "C:\\Program Files\\Java\\jdk-25\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "%VCPKG_ROOT%"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
         - "C:\\msys64\\mingw64\\bin"
-        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\JaiP\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\JaiP\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\JaiP\\AppData\\Local\\PowerToys\\DSCModules"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -143,6 +167,10 @@ events:
       - "icx"
       - "clang++"
     candidate_directories:
+      - "C:/Users/JaiP/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Microsoft VS Code/"
@@ -166,7 +194,81 @@ events:
       - "C:/Users/JaiP/AppData/Local/Programs/Python/Python314/"
       - "C:/Users/JaiP/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
     searched_directories:
+      - "C:/Users/JaiP/bin/c++.com"
+      - "C:/Users/JaiP/bin/c++.exe"
+      - "C:/Users/JaiP/bin/c++"
+      - "C:/Users/JaiP/bin/g++.com"
+      - "C:/Users/JaiP/bin/g++.exe"
+      - "C:/Users/JaiP/bin/g++"
+      - "C:/Users/JaiP/bin/cl.com"
+      - "C:/Users/JaiP/bin/cl.exe"
+      - "C:/Users/JaiP/bin/cl"
+      - "C:/Users/JaiP/bin/bcc.com"
+      - "C:/Users/JaiP/bin/bcc.exe"
+      - "C:/Users/JaiP/bin/bcc"
+      - "C:/Users/JaiP/bin/icx.com"
+      - "C:/Users/JaiP/bin/icx.exe"
+      - "C:/Users/JaiP/bin/icx"
+      - "C:/Users/JaiP/bin/clang++.com"
+      - "C:/Users/JaiP/bin/clang++.exe"
+      - "C:/Users/JaiP/bin/clang++"
+      - "C:/Program Files/Git/mingw64/bin/c++.com"
+      - "C:/Program Files/Git/mingw64/bin/c++.exe"
+      - "C:/Program Files/Git/mingw64/bin/c++"
+      - "C:/Program Files/Git/mingw64/bin/g++.com"
+      - "C:/Program Files/Git/mingw64/bin/g++.exe"
+      - "C:/Program Files/Git/mingw64/bin/g++"
+      - "C:/Program Files/Git/mingw64/bin/cl.com"
+      - "C:/Program Files/Git/mingw64/bin/cl.exe"
+      - "C:/Program Files/Git/mingw64/bin/cl"
+      - "C:/Program Files/Git/mingw64/bin/bcc.com"
+      - "C:/Program Files/Git/mingw64/bin/bcc.exe"
+      - "C:/Program Files/Git/mingw64/bin/bcc"
+      - "C:/Program Files/Git/mingw64/bin/icx.com"
+      - "C:/Program Files/Git/mingw64/bin/icx.exe"
+      - "C:/Program Files/Git/mingw64/bin/icx"
+      - "C:/Program Files/Git/mingw64/bin/clang++.com"
+      - "C:/Program Files/Git/mingw64/bin/clang++.exe"
+      - "C:/Program Files/Git/mingw64/bin/clang++"
+      - "C:/Program Files/Git/usr/local/bin/c++.com"
+      - "C:/Program Files/Git/usr/local/bin/c++.exe"
+      - "C:/Program Files/Git/usr/local/bin/c++"
+      - "C:/Program Files/Git/usr/local/bin/g++.com"
+      - "C:/Program Files/Git/usr/local/bin/g++.exe"
+      - "C:/Program Files/Git/usr/local/bin/g++"
+      - "C:/Program Files/Git/usr/local/bin/cl.com"
+      - "C:/Program Files/Git/usr/local/bin/cl.exe"
+      - "C:/Program Files/Git/usr/local/bin/cl"
+      - "C:/Program Files/Git/usr/local/bin/bcc.com"
+      - "C:/Program Files/Git/usr/local/bin/bcc.exe"
+      - "C:/Program Files/Git/usr/local/bin/bcc"
+      - "C:/Program Files/Git/usr/local/bin/icx.com"
+      - "C:/Program Files/Git/usr/local/bin/icx.exe"
+      - "C:/Program Files/Git/usr/local/bin/icx"
+      - "C:/Program Files/Git/usr/local/bin/clang++.com"
+      - "C:/Program Files/Git/usr/local/bin/clang++.exe"
+      - "C:/Program Files/Git/usr/local/bin/clang++"
+      - "C:/Program Files/Git/usr/bin/c++.com"
+      - "C:/Program Files/Git/usr/bin/c++.exe"
+      - "C:/Program Files/Git/usr/bin/c++"
+      - "C:/Program Files/Git/usr/bin/g++.com"
+      - "C:/Program Files/Git/usr/bin/g++.exe"
+      - "C:/Program Files/Git/usr/bin/g++"
+      - "C:/Program Files/Git/usr/bin/cl.com"
+      - "C:/Program Files/Git/usr/bin/cl.exe"
+      - "C:/Program Files/Git/usr/bin/cl"
+      - "C:/Program Files/Git/usr/bin/bcc.com"
+      - "C:/Program Files/Git/usr/bin/bcc.exe"
+      - "C:/Program Files/Git/usr/bin/bcc"
+      - "C:/Program Files/Git/usr/bin/icx.com"
+      - "C:/Program Files/Git/usr/bin/icx.exe"
+      - "C:/Program Files/Git/usr/bin/icx"
+      - "C:/Program Files/Git/usr/bin/clang++.com"
+      - "C:/Program Files/Git/usr/bin/clang++.exe"
+      - "C:/Program Files/Git/usr/bin/clang++"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/c++.com"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/c++.exe"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/c++"
@@ -495,29 +597,39 @@ events:
     found: "C:/msys64/mingw64/bin/c++.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\dotnet"
         - "C:\\Program Files\\Java\\jdk-25\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "%VCPKG_ROOT%"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
         - "C:\\msys64\\mingw64\\bin"
-        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\JaiP\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\JaiP\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\JaiP\\AppData\\Local\\PowerToys\\DSCModules"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -545,29 +657,39 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\dotnet"
         - "C:\\Program Files\\Java\\jdk-25\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "%VCPKG_ROOT%"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
         - "C:\\msys64\\mingw64\\bin"
-        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\JaiP\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\JaiP\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\JaiP\\AppData\\Local\\PowerToys\\DSCModules"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
   -
     kind: "message-v1"
     backtrace:
@@ -611,6 +733,10 @@ events:
       - "ar"
     candidate_directories:
       - "C:/msys64/mingw64/bin/"
+      - "C:/Users/JaiP/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Microsoft VS Code/"
@@ -633,34 +759,46 @@ events:
       - "C:/Users/JaiP/AppData/Local/Programs/Python/Python314/"
       - "C:/Users/JaiP/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
     searched_directories:
       - "C:/msys64/mingw64/bin/ar.com"
     found: "C:/msys64/mingw64/bin/ar.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\dotnet"
         - "C:\\Program Files\\Java\\jdk-25\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "%VCPKG_ROOT%"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
         - "C:\\msys64\\mingw64\\bin"
-        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\JaiP\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\JaiP\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\JaiP\\AppData\\Local\\PowerToys\\DSCModules"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -682,6 +820,10 @@ events:
       - "ranlib"
     candidate_directories:
       - "C:/msys64/mingw64/bin/"
+      - "C:/Users/JaiP/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Microsoft VS Code/"
@@ -704,34 +846,46 @@ events:
       - "C:/Users/JaiP/AppData/Local/Programs/Python/Python314/"
       - "C:/Users/JaiP/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
     searched_directories:
       - "C:/msys64/mingw64/bin/ranlib.com"
     found: "C:/msys64/mingw64/bin/ranlib.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\dotnet"
         - "C:\\Program Files\\Java\\jdk-25\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "%VCPKG_ROOT%"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
         - "C:\\msys64\\mingw64\\bin"
-        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\JaiP\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\JaiP\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\JaiP\\AppData\\Local\\PowerToys\\DSCModules"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -753,6 +907,10 @@ events:
       - "strip"
     candidate_directories:
       - "C:/msys64/mingw64/bin/"
+      - "C:/Users/JaiP/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Microsoft VS Code/"
@@ -775,34 +933,46 @@ events:
       - "C:/Users/JaiP/AppData/Local/Programs/Python/Python314/"
       - "C:/Users/JaiP/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
     searched_directories:
       - "C:/msys64/mingw64/bin/strip.com"
     found: "C:/msys64/mingw64/bin/strip.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\dotnet"
         - "C:\\Program Files\\Java\\jdk-25\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "%VCPKG_ROOT%"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
         - "C:\\msys64\\mingw64\\bin"
-        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\JaiP\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\JaiP\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\JaiP\\AppData\\Local\\PowerToys\\DSCModules"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -824,6 +994,10 @@ events:
       - "ld"
     candidate_directories:
       - "C:/msys64/mingw64/bin/"
+      - "C:/Users/JaiP/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Microsoft VS Code/"
@@ -846,34 +1020,46 @@ events:
       - "C:/Users/JaiP/AppData/Local/Programs/Python/Python314/"
       - "C:/Users/JaiP/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
     searched_directories:
       - "C:/msys64/mingw64/bin/ld.com"
     found: "C:/msys64/mingw64/bin/ld.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\dotnet"
         - "C:\\Program Files\\Java\\jdk-25\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "%VCPKG_ROOT%"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
         - "C:\\msys64\\mingw64\\bin"
-        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\JaiP\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\JaiP\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\JaiP\\AppData\\Local\\PowerToys\\DSCModules"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -895,6 +1081,10 @@ events:
       - "nm"
     candidate_directories:
       - "C:/msys64/mingw64/bin/"
+      - "C:/Users/JaiP/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Microsoft VS Code/"
@@ -917,34 +1107,46 @@ events:
       - "C:/Users/JaiP/AppData/Local/Programs/Python/Python314/"
       - "C:/Users/JaiP/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
     searched_directories:
       - "C:/msys64/mingw64/bin/nm.com"
     found: "C:/msys64/mingw64/bin/nm.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\dotnet"
         - "C:\\Program Files\\Java\\jdk-25\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "%VCPKG_ROOT%"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
         - "C:\\msys64\\mingw64\\bin"
-        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\JaiP\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\JaiP\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\JaiP\\AppData\\Local\\PowerToys\\DSCModules"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -966,6 +1168,10 @@ events:
       - "objdump"
     candidate_directories:
       - "C:/msys64/mingw64/bin/"
+      - "C:/Users/JaiP/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Microsoft VS Code/"
@@ -988,34 +1194,46 @@ events:
       - "C:/Users/JaiP/AppData/Local/Programs/Python/Python314/"
       - "C:/Users/JaiP/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
     searched_directories:
       - "C:/msys64/mingw64/bin/objdump.com"
     found: "C:/msys64/mingw64/bin/objdump.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\dotnet"
         - "C:\\Program Files\\Java\\jdk-25\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "%VCPKG_ROOT%"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
         - "C:\\msys64\\mingw64\\bin"
-        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\JaiP\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\JaiP\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\JaiP\\AppData\\Local\\PowerToys\\DSCModules"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -1037,6 +1255,10 @@ events:
       - "objcopy"
     candidate_directories:
       - "C:/msys64/mingw64/bin/"
+      - "C:/Users/JaiP/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Microsoft VS Code/"
@@ -1059,34 +1281,46 @@ events:
       - "C:/Users/JaiP/AppData/Local/Programs/Python/Python314/"
       - "C:/Users/JaiP/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
     searched_directories:
       - "C:/msys64/mingw64/bin/objcopy.com"
     found: "C:/msys64/mingw64/bin/objcopy.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\dotnet"
         - "C:\\Program Files\\Java\\jdk-25\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "%VCPKG_ROOT%"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
         - "C:\\msys64\\mingw64\\bin"
-        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\JaiP\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\JaiP\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\JaiP\\AppData\\Local\\PowerToys\\DSCModules"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -1108,6 +1342,10 @@ events:
       - "readelf"
     candidate_directories:
       - "C:/msys64/mingw64/bin/"
+      - "C:/Users/JaiP/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Microsoft VS Code/"
@@ -1130,34 +1368,46 @@ events:
       - "C:/Users/JaiP/AppData/Local/Programs/Python/Python314/"
       - "C:/Users/JaiP/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
     searched_directories:
       - "C:/msys64/mingw64/bin/readelf.com"
     found: "C:/msys64/mingw64/bin/readelf.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\dotnet"
         - "C:\\Program Files\\Java\\jdk-25\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "%VCPKG_ROOT%"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
         - "C:\\msys64\\mingw64\\bin"
-        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\JaiP\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\JaiP\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\JaiP\\AppData\\Local\\PowerToys\\DSCModules"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -1179,6 +1429,10 @@ events:
       - "dlltool"
     candidate_directories:
       - "C:/msys64/mingw64/bin/"
+      - "C:/Users/JaiP/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Microsoft VS Code/"
@@ -1201,34 +1455,46 @@ events:
       - "C:/Users/JaiP/AppData/Local/Programs/Python/Python314/"
       - "C:/Users/JaiP/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
     searched_directories:
       - "C:/msys64/mingw64/bin/dlltool.com"
     found: "C:/msys64/mingw64/bin/dlltool.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\dotnet"
         - "C:\\Program Files\\Java\\jdk-25\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "%VCPKG_ROOT%"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
         - "C:\\msys64\\mingw64\\bin"
-        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\JaiP\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\JaiP\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\JaiP\\AppData\\Local\\PowerToys\\DSCModules"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -1250,6 +1516,10 @@ events:
       - "addr2line"
     candidate_directories:
       - "C:/msys64/mingw64/bin/"
+      - "C:/Users/JaiP/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Microsoft VS Code/"
@@ -1272,34 +1542,46 @@ events:
       - "C:/Users/JaiP/AppData/Local/Programs/Python/Python314/"
       - "C:/Users/JaiP/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
     searched_directories:
       - "C:/msys64/mingw64/bin/addr2line.com"
     found: "C:/msys64/mingw64/bin/addr2line.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\dotnet"
         - "C:\\Program Files\\Java\\jdk-25\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "%VCPKG_ROOT%"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
         - "C:\\msys64\\mingw64\\bin"
-        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\JaiP\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\JaiP\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\JaiP\\AppData\\Local\\PowerToys\\DSCModules"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -1321,6 +1603,10 @@ events:
       - "tapi"
     candidate_directories:
       - "C:/msys64/mingw64/bin/"
+      - "C:/Users/JaiP/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Microsoft VS Code/"
@@ -1343,10 +1629,24 @@ events:
       - "C:/Users/JaiP/AppData/Local/Programs/Python/Python314/"
       - "C:/Users/JaiP/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
     searched_directories:
       - "C:/msys64/mingw64/bin/tapi.com"
       - "C:/msys64/mingw64/bin/tapi.exe"
       - "C:/msys64/mingw64/bin/tapi"
+      - "C:/Users/JaiP/bin/tapi.com"
+      - "C:/Users/JaiP/bin/tapi.exe"
+      - "C:/Users/JaiP/bin/tapi"
+      - "C:/Program Files/Git/mingw64/bin/tapi.com"
+      - "C:/Program Files/Git/mingw64/bin/tapi.exe"
+      - "C:/Program Files/Git/mingw64/bin/tapi"
+      - "C:/Program Files/Git/usr/local/bin/tapi.com"
+      - "C:/Program Files/Git/usr/local/bin/tapi.exe"
+      - "C:/Program Files/Git/usr/local/bin/tapi"
+      - "C:/Program Files/Git/usr/bin/tapi.com"
+      - "C:/Program Files/Git/usr/bin/tapi.exe"
+      - "C:/Program Files/Git/usr/bin/tapi"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi.com"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi.exe"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
@@ -1413,32 +1713,48 @@ events:
       - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/tapi.com"
       - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/tapi.exe"
       - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/tapi"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/tapi.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/tapi.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/tapi"
+      - "C:/Program Files/Git/usr/bin/core_perl/tapi.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/tapi.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/tapi"
     found: false
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\dotnet"
         - "C:\\Program Files\\Java\\jdk-25\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "%VCPKG_ROOT%"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
         - "C:\\msys64\\mingw64\\bin"
-        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\JaiP\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\JaiP\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\JaiP\\AppData\\Local\\PowerToys\\DSCModules"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -1463,6 +1779,10 @@ events:
       - "gcc-ar"
     candidate_directories:
       - "C:/msys64/mingw64/bin/"
+      - "C:/Users/JaiP/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Microsoft VS Code/"
@@ -1485,10 +1805,24 @@ events:
       - "C:/Users/JaiP/AppData/Local/Programs/Python/Python314/"
       - "C:/Users/JaiP/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
     searched_directories:
       - "C:/msys64/mingw64/bin/gcc-ar-16.1.com"
       - "C:/msys64/mingw64/bin/gcc-ar-16.1.exe"
       - "C:/msys64/mingw64/bin/gcc-ar-16.1"
+      - "C:/Users/JaiP/bin/gcc-ar-16.1.com"
+      - "C:/Users/JaiP/bin/gcc-ar-16.1.exe"
+      - "C:/Users/JaiP/bin/gcc-ar-16.1"
+      - "C:/Program Files/Git/mingw64/bin/gcc-ar-16.1.com"
+      - "C:/Program Files/Git/mingw64/bin/gcc-ar-16.1.exe"
+      - "C:/Program Files/Git/mingw64/bin/gcc-ar-16.1"
+      - "C:/Program Files/Git/usr/local/bin/gcc-ar-16.1.com"
+      - "C:/Program Files/Git/usr/local/bin/gcc-ar-16.1.exe"
+      - "C:/Program Files/Git/usr/local/bin/gcc-ar-16.1"
+      - "C:/Program Files/Git/usr/bin/gcc-ar-16.1.com"
+      - "C:/Program Files/Git/usr/bin/gcc-ar-16.1.exe"
+      - "C:/Program Files/Git/usr/bin/gcc-ar-16.1"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-16.1.com"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-16.1.exe"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-16.1"
@@ -1555,9 +1889,27 @@ events:
       - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/gcc-ar-16.1.com"
       - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/gcc-ar-16.1.exe"
       - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/gcc-ar-16.1"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/gcc-ar-16.1.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/gcc-ar-16.1.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/gcc-ar-16.1"
+      - "C:/Program Files/Git/usr/bin/core_perl/gcc-ar-16.1.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/gcc-ar-16.1.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/gcc-ar-16.1"
       - "C:/msys64/mingw64/bin/gcc-ar-16.com"
       - "C:/msys64/mingw64/bin/gcc-ar-16.exe"
       - "C:/msys64/mingw64/bin/gcc-ar-16"
+      - "C:/Users/JaiP/bin/gcc-ar-16.com"
+      - "C:/Users/JaiP/bin/gcc-ar-16.exe"
+      - "C:/Users/JaiP/bin/gcc-ar-16"
+      - "C:/Program Files/Git/mingw64/bin/gcc-ar-16.com"
+      - "C:/Program Files/Git/mingw64/bin/gcc-ar-16.exe"
+      - "C:/Program Files/Git/mingw64/bin/gcc-ar-16"
+      - "C:/Program Files/Git/usr/local/bin/gcc-ar-16.com"
+      - "C:/Program Files/Git/usr/local/bin/gcc-ar-16.exe"
+      - "C:/Program Files/Git/usr/local/bin/gcc-ar-16"
+      - "C:/Program Files/Git/usr/bin/gcc-ar-16.com"
+      - "C:/Program Files/Git/usr/bin/gcc-ar-16.exe"
+      - "C:/Program Files/Git/usr/bin/gcc-ar-16"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-16.com"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-16.exe"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-16"
@@ -1624,9 +1976,27 @@ events:
       - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/gcc-ar-16.com"
       - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/gcc-ar-16.exe"
       - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/gcc-ar-16"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/gcc-ar-16.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/gcc-ar-16.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/gcc-ar-16"
+      - "C:/Program Files/Git/usr/bin/core_perl/gcc-ar-16.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/gcc-ar-16.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/gcc-ar-16"
       - "C:/msys64/mingw64/bin/gcc-ar16.com"
       - "C:/msys64/mingw64/bin/gcc-ar16.exe"
       - "C:/msys64/mingw64/bin/gcc-ar16"
+      - "C:/Users/JaiP/bin/gcc-ar16.com"
+      - "C:/Users/JaiP/bin/gcc-ar16.exe"
+      - "C:/Users/JaiP/bin/gcc-ar16"
+      - "C:/Program Files/Git/mingw64/bin/gcc-ar16.com"
+      - "C:/Program Files/Git/mingw64/bin/gcc-ar16.exe"
+      - "C:/Program Files/Git/mingw64/bin/gcc-ar16"
+      - "C:/Program Files/Git/usr/local/bin/gcc-ar16.com"
+      - "C:/Program Files/Git/usr/local/bin/gcc-ar16.exe"
+      - "C:/Program Files/Git/usr/local/bin/gcc-ar16"
+      - "C:/Program Files/Git/usr/bin/gcc-ar16.com"
+      - "C:/Program Files/Git/usr/bin/gcc-ar16.exe"
+      - "C:/Program Files/Git/usr/bin/gcc-ar16"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar16.com"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar16.exe"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar16"
@@ -1693,33 +2063,49 @@ events:
       - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/gcc-ar16.com"
       - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/gcc-ar16.exe"
       - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/gcc-ar16"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/gcc-ar16.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/gcc-ar16.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/gcc-ar16"
+      - "C:/Program Files/Git/usr/bin/core_perl/gcc-ar16.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/gcc-ar16.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/gcc-ar16"
       - "C:/msys64/mingw64/bin/gcc-ar.com"
     found: "C:/msys64/mingw64/bin/gcc-ar.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\dotnet"
         - "C:\\Program Files\\Java\\jdk-25\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "%VCPKG_ROOT%"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
         - "C:\\msys64\\mingw64\\bin"
-        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\JaiP\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\JaiP\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\JaiP\\AppData\\Local\\PowerToys\\DSCModules"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -1744,6 +2130,10 @@ events:
       - "gcc-ranlib"
     candidate_directories:
       - "C:/msys64/mingw64/bin/"
+      - "C:/Users/JaiP/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Microsoft VS Code/"
@@ -1766,10 +2156,24 @@ events:
       - "C:/Users/JaiP/AppData/Local/Programs/Python/Python314/"
       - "C:/Users/JaiP/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
     searched_directories:
       - "C:/msys64/mingw64/bin/gcc-ranlib-16.1.com"
       - "C:/msys64/mingw64/bin/gcc-ranlib-16.1.exe"
       - "C:/msys64/mingw64/bin/gcc-ranlib-16.1"
+      - "C:/Users/JaiP/bin/gcc-ranlib-16.1.com"
+      - "C:/Users/JaiP/bin/gcc-ranlib-16.1.exe"
+      - "C:/Users/JaiP/bin/gcc-ranlib-16.1"
+      - "C:/Program Files/Git/mingw64/bin/gcc-ranlib-16.1.com"
+      - "C:/Program Files/Git/mingw64/bin/gcc-ranlib-16.1.exe"
+      - "C:/Program Files/Git/mingw64/bin/gcc-ranlib-16.1"
+      - "C:/Program Files/Git/usr/local/bin/gcc-ranlib-16.1.com"
+      - "C:/Program Files/Git/usr/local/bin/gcc-ranlib-16.1.exe"
+      - "C:/Program Files/Git/usr/local/bin/gcc-ranlib-16.1"
+      - "C:/Program Files/Git/usr/bin/gcc-ranlib-16.1.com"
+      - "C:/Program Files/Git/usr/bin/gcc-ranlib-16.1.exe"
+      - "C:/Program Files/Git/usr/bin/gcc-ranlib-16.1"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-16.1.com"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-16.1.exe"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-16.1"
@@ -1836,9 +2240,27 @@ events:
       - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/gcc-ranlib-16.1.com"
       - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/gcc-ranlib-16.1.exe"
       - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/gcc-ranlib-16.1"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/gcc-ranlib-16.1.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/gcc-ranlib-16.1.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/gcc-ranlib-16.1"
+      - "C:/Program Files/Git/usr/bin/core_perl/gcc-ranlib-16.1.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/gcc-ranlib-16.1.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/gcc-ranlib-16.1"
       - "C:/msys64/mingw64/bin/gcc-ranlib-16.com"
       - "C:/msys64/mingw64/bin/gcc-ranlib-16.exe"
       - "C:/msys64/mingw64/bin/gcc-ranlib-16"
+      - "C:/Users/JaiP/bin/gcc-ranlib-16.com"
+      - "C:/Users/JaiP/bin/gcc-ranlib-16.exe"
+      - "C:/Users/JaiP/bin/gcc-ranlib-16"
+      - "C:/Program Files/Git/mingw64/bin/gcc-ranlib-16.com"
+      - "C:/Program Files/Git/mingw64/bin/gcc-ranlib-16.exe"
+      - "C:/Program Files/Git/mingw64/bin/gcc-ranlib-16"
+      - "C:/Program Files/Git/usr/local/bin/gcc-ranlib-16.com"
+      - "C:/Program Files/Git/usr/local/bin/gcc-ranlib-16.exe"
+      - "C:/Program Files/Git/usr/local/bin/gcc-ranlib-16"
+      - "C:/Program Files/Git/usr/bin/gcc-ranlib-16.com"
+      - "C:/Program Files/Git/usr/bin/gcc-ranlib-16.exe"
+      - "C:/Program Files/Git/usr/bin/gcc-ranlib-16"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-16.com"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-16.exe"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-16"
@@ -1905,9 +2327,27 @@ events:
       - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/gcc-ranlib-16.com"
       - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/gcc-ranlib-16.exe"
       - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/gcc-ranlib-16"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/gcc-ranlib-16.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/gcc-ranlib-16.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/gcc-ranlib-16"
+      - "C:/Program Files/Git/usr/bin/core_perl/gcc-ranlib-16.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/gcc-ranlib-16.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/gcc-ranlib-16"
       - "C:/msys64/mingw64/bin/gcc-ranlib16.com"
       - "C:/msys64/mingw64/bin/gcc-ranlib16.exe"
       - "C:/msys64/mingw64/bin/gcc-ranlib16"
+      - "C:/Users/JaiP/bin/gcc-ranlib16.com"
+      - "C:/Users/JaiP/bin/gcc-ranlib16.exe"
+      - "C:/Users/JaiP/bin/gcc-ranlib16"
+      - "C:/Program Files/Git/mingw64/bin/gcc-ranlib16.com"
+      - "C:/Program Files/Git/mingw64/bin/gcc-ranlib16.exe"
+      - "C:/Program Files/Git/mingw64/bin/gcc-ranlib16"
+      - "C:/Program Files/Git/usr/local/bin/gcc-ranlib16.com"
+      - "C:/Program Files/Git/usr/local/bin/gcc-ranlib16.exe"
+      - "C:/Program Files/Git/usr/local/bin/gcc-ranlib16"
+      - "C:/Program Files/Git/usr/bin/gcc-ranlib16.com"
+      - "C:/Program Files/Git/usr/bin/gcc-ranlib16.exe"
+      - "C:/Program Files/Git/usr/bin/gcc-ranlib16"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib16.com"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib16.exe"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib16"
@@ -1974,33 +2414,49 @@ events:
       - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/gcc-ranlib16.com"
       - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/gcc-ranlib16.exe"
       - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/gcc-ranlib16"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/gcc-ranlib16.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/gcc-ranlib16.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/gcc-ranlib16"
+      - "C:/Program Files/Git/usr/bin/core_perl/gcc-ranlib16.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/gcc-ranlib16.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/gcc-ranlib16"
       - "C:/msys64/mingw64/bin/gcc-ranlib.com"
     found: "C:/msys64/mingw64/bin/gcc-ranlib.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\dotnet"
         - "C:\\Program Files\\Java\\jdk-25\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "%VCPKG_ROOT%"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
         - "C:\\msys64\\mingw64\\bin"
-        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\JaiP\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\JaiP\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\JaiP\\AppData\\Local\\PowerToys\\DSCModules"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -2024,6 +2480,10 @@ events:
       - "windres"
       - "windres"
     candidate_directories:
+      - "C:/Users/JaiP/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Microsoft VS Code/"
@@ -2047,6 +2507,11 @@ events:
       - "C:/Users/JaiP/AppData/Local/Programs/Python/Python314/"
       - "C:/Users/JaiP/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/mingw64/sbin/"
+      - "C:/Program Files/Git/mingw64/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -2056,10 +2521,22 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/CMake/sbin/"
       - "C:/Program Files/CMake/"
-      - "C:/Program Files (x86)/MazeSolver/bin/"
-      - "C:/Program Files (x86)/MazeSolver/sbin/"
-      - "C:/Program Files (x86)/MazeSolver/"
+      - "C:/Program Files (x86)/MazeSolverGUI/bin/"
+      - "C:/Program Files (x86)/MazeSolverGUI/sbin/"
+      - "C:/Program Files (x86)/MazeSolverGUI/"
     searched_directories:
+      - "C:/Users/JaiP/bin/windres.com"
+      - "C:/Users/JaiP/bin/windres.exe"
+      - "C:/Users/JaiP/bin/windres"
+      - "C:/Program Files/Git/mingw64/bin/windres.com"
+      - "C:/Program Files/Git/mingw64/bin/windres.exe"
+      - "C:/Program Files/Git/mingw64/bin/windres"
+      - "C:/Program Files/Git/usr/local/bin/windres.com"
+      - "C:/Program Files/Git/usr/local/bin/windres.exe"
+      - "C:/Program Files/Git/usr/local/bin/windres"
+      - "C:/Program Files/Git/usr/bin/windres.com"
+      - "C:/Program Files/Git/usr/bin/windres.exe"
+      - "C:/Program Files/Git/usr/bin/windres"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/windres.com"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/windres.exe"
       - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/windres"
@@ -2118,35 +2595,46 @@ events:
     found: "C:/msys64/mingw64/bin/windres.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\dotnet"
         - "C:\\Program Files\\Java\\jdk-25\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "%VCPKG_ROOT%"
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
         - "C:\\msys64\\mingw64\\bin"
-        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\JaiP\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\JaiP\\AppData\\Local\\PowerToys\\DSCModules\\"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MazeSolver"
+        - "C:\\Users\\JaiP\\AppData\\Local\\PowerToys\\DSCModules"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MazeSolverGUI"
       CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files/Git/mingw64"
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/MazeSolver"
+        - "C:/Program Files (x86)/MazeSolverGUI"
   -
     kind: "try_compile-v1"
     backtrace:
@@ -2156,8 +2644,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/build/CMakeFiles/CMakeScratch/TryCompile-fusm6h"
-      binary: "C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/build/CMakeFiles/CMakeScratch/TryCompile-fusm6h"
+      source: "C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/build/CMakeFiles/CMakeScratch/TryCompile-2ui7ek"
+      binary: "C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/build/CMakeFiles/CMakeScratch/TryCompile-2ui7ek"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -2167,13 +2655,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/build/CMakeFiles/CMakeScratch/TryCompile-fusm6h'
+        Change Dir: 'C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/build/CMakeFiles/CMakeScratch/TryCompile-2ui7ek'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_b0044/fast
-        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_b0044.dir\\build.make CMakeFiles/cmTC_b0044.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/build/CMakeFiles/CMakeScratch/TryCompile-fusm6h'
-        Building CXX object CMakeFiles/cmTC_b0044.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\msys64\\mingw64\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_b0044.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_530f1/fast
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_530f1.dir\\build.make CMakeFiles/cmTC_530f1.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/build/CMakeFiles/CMakeScratch/TryCompile-2ui7ek'
+        Building CXX object CMakeFiles/cmTC_530f1.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\msys64\\mingw64\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_530f1.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\mingw64\\bin\\c++.exe
         Target: x86_64-w64-mingw32
@@ -2181,8 +2669,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 16.1.0 (Rev1, Built by MSYS2 project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_b0044.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_b0044.dir\\'
-         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/cc1plus.exe -quiet -v -iprefix C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_b0044.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\JaiP\\AppData\\Local\\Temp\\ccf9cxkz.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_530f1.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_530f1.dir\\'
+         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/cc1plus.exe -quiet -v -iprefix C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_530f1.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\JaiP\\AppData\\Local\\Temp\\ccFMGpHf.s
         GNU C++20 (Rev1, Built by MSYS2 project) version 16.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 16.1.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version isl-0.27-GMP
         
@@ -2206,14 +2694,14 @@ events:
          C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/include-fixed
         End of search list.
         Compiler executable checksum: 2f5e6186a0b5faf483f2b8c5b0e50c89
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_b0044.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_b0044.dir\\'
-         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_b0044.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\JaiP\\AppData\\Local\\Temp\\ccf9cxkz.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_530f1.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_530f1.dir\\'
+         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_530f1.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\JaiP\\AppData\\Local\\Temp\\ccFMGpHf.s
         GNU assembler version 2.46 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.46
         COMPILER_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_b0044.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_b0044.dir\\CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_b0044.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_b0044.dir\\link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_530f1.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_530f1.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_530f1.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_530f1.dir\\link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\mingw64\\bin\\c++.exe
         COLLECT_LTO_WRAPPER=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe
@@ -2224,16 +2712,16 @@ events:
         gcc version 16.1.0 (Rev1, Built by MSYS2 project) 
         COMPILER_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b0044.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_b0044.'
-         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\JaiP\\AppData\\Local\\Temp\\ccE9dh3J.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_b0044.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_b0044.dir/objects.a --no-whole-archive --out-implib libcmTC_b0044.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_530f1.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_530f1.'
+         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\JaiP\\AppData\\Local\\Temp\\ccqELxYw.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_530f1.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_530f1.dir/objects.a --no-whole-archive --out-implib libcmTC_530f1.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o
         collect2 version 16.1.0
-        C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\JaiP\\AppData\\Local\\Temp\\ccE9dh3J.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_b0044.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_b0044.dir/objects.a --no-whole-archive --out-implib libcmTC_b0044.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o
+        C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\JaiP\\AppData\\Local\\Temp\\ccqELxYw.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_530f1.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_530f1.dir/objects.a --no-whole-archive --out-implib libcmTC_530f1.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o
         GNU ld (GNU Binutils) 2.46
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b0044.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_b0044.'
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_b0044.dir/objects.a
-        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_b0044.dir/objects.a @CMakeFiles\\cmTC_b0044.dir\\objects1.rsp
-        C:\\msys64\\mingw64\\bin\\c++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_b0044.dir/objects.a -Wl,--no-whole-archive -o cmTC_b0044.exe -Wl,--out-implib,libcmTC_b0044.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        mingw32-make[1]: Leaving directory 'C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/build/CMakeFiles/CMakeScratch/TryCompile-fusm6h'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_530f1.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_530f1.'
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_530f1.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_530f1.dir/objects.a @CMakeFiles\\cmTC_530f1.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\c++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_530f1.dir/objects.a -Wl,--no-whole-archive -o cmTC_530f1.exe -Wl,--out-implib,libcmTC_530f1.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/build/CMakeFiles/CMakeScratch/TryCompile-2ui7ek'
         
       exitCode: 0
   -
@@ -2272,13 +2760,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/build/CMakeFiles/CMakeScratch/TryCompile-fusm6h']
+        ignore line: [Change Dir: 'C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/build/CMakeFiles/CMakeScratch/TryCompile-2ui7ek']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_b0044/fast]
-        ignore line: [C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_b0044.dir\\build.make CMakeFiles/cmTC_b0044.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/build/CMakeFiles/CMakeScratch/TryCompile-fusm6h']
-        ignore line: [Building CXX object CMakeFiles/cmTC_b0044.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:\\msys64\\mingw64\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_b0044.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_530f1/fast]
+        ignore line: [C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_530f1.dir\\build.make CMakeFiles/cmTC_530f1.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/build/CMakeFiles/CMakeScratch/TryCompile-2ui7ek']
+        ignore line: [Building CXX object CMakeFiles/cmTC_530f1.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\msys64\\mingw64\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_530f1.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\mingw64\\bin\\c++.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -2286,8 +2774,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 16.1.0 (Rev1  Built by MSYS2 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_b0044.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_b0044.dir\\']
-        ignore line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/cc1plus.exe -quiet -v -iprefix C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_b0044.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\JaiP\\AppData\\Local\\Temp\\ccf9cxkz.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_530f1.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_530f1.dir\\']
+        ignore line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/cc1plus.exe -quiet -v -iprefix C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_530f1.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\JaiP\\AppData\\Local\\Temp\\ccFMGpHf.s]
         ignore line: [GNU C++20 (Rev1  Built by MSYS2 project) version 16.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 16.1.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -2311,8 +2799,8 @@ events:
         ignore line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/include-fixed]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 2f5e6186a0b5faf483f2b8c5b0e50c89]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_b0044.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_b0044.dir\\']
-        ignore line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_b0044.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\JaiP\\AppData\\Local\\Temp\\ccf9cxkz.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_530f1.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_530f1.dir\\']
+        ignore line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_530f1.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\JaiP\\AppData\\Local\\Temp\\ccFMGpHf.s]
         ignore line: [GNU assembler version 2.46 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.46]
         ignore line: [COMPILER_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/]
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/]
@@ -2323,9 +2811,9 @@ events:
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/]
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_b0044.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_b0044.dir\\CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_b0044.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_b0044.dir\\link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_530f1.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_530f1.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_530f1.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_530f1.dir\\link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\mingw64\\bin\\c++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe]
@@ -2343,13 +2831,13 @@ events:
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/]
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b0044.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_b0044.']
-        link line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\JaiP\\AppData\\Local\\Temp\\ccE9dh3J.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_b0044.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_b0044.dir/objects.a --no-whole-archive --out-implib libcmTC_b0044.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_530f1.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_530f1.']
+        link line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\JaiP\\AppData\\Local\\Temp\\ccqELxYw.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_530f1.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_530f1.dir/objects.a --no-whole-archive --out-implib libcmTC_530f1.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
           arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\JaiP\\AppData\\Local\\Temp\\ccE9dh3J.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\JaiP\\AppData\\Local\\Temp\\ccqELxYw.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -2371,7 +2859,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_b0044.exe] ==> ignore
+          arg [cmTC_530f1.exe] ==> ignore
           arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o] ==> obj [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o]
           arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o] ==> obj [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o]
           arg [-LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0] ==> dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0]
@@ -2382,10 +2870,10 @@ events:
           arg [-LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../..] ==> dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_b0044.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_530f1.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_b0044.dll.a] ==> ignore
+          arg [libcmTC_530f1.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -2411,7 +2899,7 @@ events:
           arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o] ==> obj [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o]
           arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o] ==> obj [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
         ignore line: [collect2 version 16.1.0]
-        ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\JaiP\\AppData\\Local\\Temp\\ccE9dh3J.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_b0044.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_b0044.dir/objects.a --no-whole-archive --out-implib libcmTC_b0044.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
+        ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\JaiP\\AppData\\Local\\Temp\\ccqELxYw.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_530f1.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_530f1.dir/objects.a --no-whole-archive --out-implib libcmTC_530f1.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
         linker tool for 'CXX': C:/msys64/mingw64/x86_64-w64-mingw32/bin/ld.exe
         remove lib [msvcrt]
         remove lib [msvcrt]
@@ -2441,4 +2929,885 @@ events:
     message: |
       Running the CXX compiler's linker: "C:/msys64/mingw64/x86_64-w64-mingw32/bin/ld.exe" "-v"
       GNU ld (GNU Binutils) 2.46
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/mingw64/lib/cmake/SFML/SFMLConfig.cmake:93 (find_path)"
+      - "CMakeLists.txt:8 (find_package)"
+    mode: "path"
+    variable: "SFML_DOC_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "SFML.tag"
+    candidate_directories:
+      - "C:/Users/JaiP/bin/SFML/doc/"
+      - "C:/Users/JaiP/bin/share/doc/SFML/"
+      - "C:/Users/JaiP/bin/"
+      - "C:/Program Files/Git/mingw64/bin/SFML/doc/"
+      - "C:/Program Files/Git/mingw64/bin/share/doc/SFML/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/SFML/doc/"
+      - "C:/Program Files/Git/usr/local/bin/share/doc/SFML/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/SFML/doc/"
+      - "C:/Program Files/Git/usr/bin/share/doc/SFML/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/SFML/doc/"
+      - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/share/doc/SFML/"
+      - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/SFML/doc/"
+      - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/share/doc/SFML/"
+      - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Microsoft VS Code/SFML/doc/"
+      - "C:/Program Files/Microsoft VS Code/share/doc/SFML/"
+      - "C:/Program Files/Microsoft VS Code/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/SFML/doc/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/share/doc/SFML/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/SFML/doc/"
+      - "C:/Windows/System32/share/doc/SFML/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/SFML/doc/"
+      - "C:/Windows/share/doc/SFML/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/SFML/doc/"
+      - "C:/Windows/System32/wbem/share/doc/SFML/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/SFML/doc/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/share/doc/SFML/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/SFML/doc/"
+      - "C:/Windows/System32/OpenSSH/share/doc/SFML/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/SFML/doc/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/share/doc/SFML/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Microsoft VS Code/bin/SFML/doc/"
+      - "C:/Program Files/Microsoft VS Code/bin/share/doc/SFML/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/SFML/doc/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/share/doc/SFML/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/SFML/doc/"
+      - "C:/Program Files/dotnet/share/doc/SFML/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Java/jdk-25/bin/SFML/doc/"
+      - "C:/Program Files/Java/jdk-25/bin/share/doc/SFML/"
+      - "C:/Program Files/Java/jdk-25/bin/"
+      - "C:/Program Files/Git/cmd/SFML/doc/"
+      - "C:/Program Files/Git/cmd/share/doc/SFML/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/build/%VCPKG_ROOT%/SFML/doc/"
+      - "C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/build/%VCPKG_ROOT%/share/doc/SFML/"
+      - "C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/build/%VCPKG_ROOT%/"
+      - "C:/Program Files/CMake/bin/SFML/doc/"
+      - "C:/Program Files/CMake/bin/share/doc/SFML/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/SFML/doc/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/share/doc/SFML/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/msys64/mingw64/bin/SFML/doc/"
+      - "C:/msys64/mingw64/bin/share/doc/SFML/"
+      - "C:/msys64/mingw64/bin/"
+      - "C:/Users/JaiP/AppData/Local/Programs/Python/Python314/Scripts/SFML/doc/"
+      - "C:/Users/JaiP/AppData/Local/Programs/Python/Python314/Scripts/share/doc/SFML/"
+      - "C:/Users/JaiP/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/JaiP/AppData/Local/Programs/Python/Python314/SFML/doc/"
+      - "C:/Users/JaiP/AppData/Local/Programs/Python/Python314/share/doc/SFML/"
+      - "C:/Users/JaiP/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/JaiP/AppData/Local/Microsoft/WindowsApps/SFML/doc/"
+      - "C:/Users/JaiP/AppData/Local/Microsoft/WindowsApps/share/doc/SFML/"
+      - "C:/Users/JaiP/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/SFML/doc/"
+      - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/share/doc/SFML/"
+      - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/SFML/doc/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/share/doc/SFML/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/SFML/doc/"
+      - "C:/Program Files/Git/usr/bin/core_perl/share/doc/SFML/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+      - "C:/Program Files/Git/mingw64/include/SFML/doc/"
+      - "C:/Program Files/Git/mingw64/include/share/doc/SFML/"
+      - "C:/Program Files/Git/mingw64/include/"
+      - "C:/Program Files/Git/mingw64/SFML/doc/"
+      - "C:/Program Files/Git/mingw64/share/doc/SFML/"
+      - "C:/Program Files/Git/mingw64/"
+      - "C:/Program Files/include/SFML/doc/"
+      - "C:/Program Files/include/share/doc/SFML/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/SFML/doc/"
+      - "C:/Program Files/share/doc/SFML/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/include/SFML/doc/"
+      - "C:/Program Files (x86)/include/share/doc/SFML/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/SFML/doc/"
+      - "C:/Program Files (x86)/share/doc/SFML/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/include/SFML/doc/"
+      - "C:/Program Files/CMake/include/share/doc/SFML/"
+      - "C:/Program Files/CMake/include/"
+      - "C:/Program Files/CMake/SFML/doc/"
+      - "C:/Program Files/CMake/share/doc/SFML/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/MazeSolverGUI/include/SFML/doc/"
+      - "C:/Program Files (x86)/MazeSolverGUI/include/share/doc/SFML/"
+      - "C:/Program Files (x86)/MazeSolverGUI/include/"
+      - "C:/Program Files (x86)/MazeSolverGUI/SFML/doc/"
+      - "C:/Program Files (x86)/MazeSolverGUI/share/doc/SFML/"
+      - "C:/Program Files (x86)/MazeSolverGUI/"
+      - "C:/msys64/mingw64/SFML/doc/"
+      - "C:/msys64/mingw64/share/doc/SFML/"
+      - "C:/msys64/mingw64/"
+      - "C:/Users/JaiP/Library/Frameworks/SFML/doc/"
+      - "C:/Users/JaiP/Library/Frameworks/share/doc/SFML/"
+      - "C:/Users/JaiP/Library/Frameworks/"
+      - "/Library/Frameworks/SFML/doc/"
+      - "/Library/Frameworks/share/doc/SFML/"
+      - "/Library/Frameworks/"
+      - "/usr/local/SFML/doc/"
+      - "/usr/local/share/doc/SFML/"
+      - "/usr/local/"
+      - "/usr/SFML/doc/"
+      - "/usr/share/doc/SFML/"
+      - "/usr/"
+      - "/sw/SFML/doc/"
+      - "/sw/share/doc/SFML/"
+      - "/sw/"
+      - "/opt/local/SFML/doc/"
+      - "/opt/local/share/doc/SFML/"
+      - "/opt/local/"
+      - "/opt/csw/SFML/doc/"
+      - "/opt/csw/share/doc/SFML/"
+      - "/opt/csw/"
+      - "/opt/SFML/doc/"
+      - "/opt/share/doc/SFML/"
+      - "/opt/"
+    searched_directories:
+      - "C:/Users/JaiP/bin/SFML/doc/SFML.tag"
+      - "C:/Users/JaiP/bin/share/doc/SFML/SFML.tag"
+      - "C:/Users/JaiP/bin/SFML.tag"
+      - "C:/Program Files/Git/mingw64/bin/SFML/doc/SFML.tag"
+      - "C:/Program Files/Git/mingw64/bin/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/Git/mingw64/bin/SFML.tag"
+      - "C:/Program Files/Git/usr/local/bin/SFML/doc/SFML.tag"
+      - "C:/Program Files/Git/usr/local/bin/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/Git/usr/local/bin/SFML.tag"
+      - "C:/Program Files/Git/usr/bin/SFML/doc/SFML.tag"
+      - "C:/Program Files/Git/usr/bin/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/Git/usr/bin/SFML.tag"
+      - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/SFML/doc/SFML.tag"
+      - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/share/doc/SFML/SFML.tag"
+      - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/SFML.tag"
+      - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/SFML/doc/SFML.tag"
+      - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/share/doc/SFML/SFML.tag"
+      - "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/SFML.tag"
+      - "C:/Program Files/Microsoft VS Code/SFML/doc/SFML.tag"
+      - "C:/Program Files/Microsoft VS Code/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/Microsoft VS Code/SFML.tag"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/SFML/doc/SFML.tag"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/SFML.tag"
+      - "C:/Windows/System32/SFML/doc/SFML.tag"
+      - "C:/Windows/System32/share/doc/SFML/SFML.tag"
+      - "C:/Windows/System32/SFML.tag"
+      - "C:/Windows/SFML/doc/SFML.tag"
+      - "C:/Windows/share/doc/SFML/SFML.tag"
+      - "C:/Windows/SFML.tag"
+      - "C:/Windows/System32/wbem/SFML/doc/SFML.tag"
+      - "C:/Windows/System32/wbem/share/doc/SFML/SFML.tag"
+      - "C:/Windows/System32/wbem/SFML.tag"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/SFML/doc/SFML.tag"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/share/doc/SFML/SFML.tag"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/SFML.tag"
+      - "C:/Windows/System32/OpenSSH/SFML/doc/SFML.tag"
+      - "C:/Windows/System32/OpenSSH/share/doc/SFML/SFML.tag"
+      - "C:/Windows/System32/OpenSSH/SFML.tag"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/SFML/doc/SFML.tag"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/share/doc/SFML/SFML.tag"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/SFML.tag"
+      - "C:/Program Files/Microsoft VS Code/bin/SFML/doc/SFML.tag"
+      - "C:/Program Files/Microsoft VS Code/bin/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/Microsoft VS Code/bin/SFML.tag"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/SFML/doc/SFML.tag"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/share/doc/SFML/SFML.tag"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/SFML.tag"
+      - "C:/Program Files/dotnet/SFML/doc/SFML.tag"
+      - "C:/Program Files/dotnet/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/dotnet/SFML.tag"
+      - "C:/Program Files/Java/jdk-25/bin/SFML/doc/SFML.tag"
+      - "C:/Program Files/Java/jdk-25/bin/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/Java/jdk-25/bin/SFML.tag"
+      - "C:/Program Files/Git/cmd/SFML/doc/SFML.tag"
+      - "C:/Program Files/Git/cmd/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/Git/cmd/SFML.tag"
+      - "C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/build/%VCPKG_ROOT%/SFML/doc/SFML.tag"
+      - "C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/build/%VCPKG_ROOT%/share/doc/SFML/SFML.tag"
+      - "C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/build/%VCPKG_ROOT%/SFML.tag"
+      - "C:/Program Files/CMake/bin/SFML/doc/SFML.tag"
+      - "C:/Program Files/CMake/bin/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/CMake/bin/SFML.tag"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/SFML/doc/SFML.tag"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/SFML.tag"
+      - "C:/msys64/mingw64/bin/SFML/doc/SFML.tag"
+      - "C:/msys64/mingw64/bin/share/doc/SFML/SFML.tag"
+      - "C:/msys64/mingw64/bin/SFML.tag"
+      - "C:/Users/JaiP/AppData/Local/Programs/Python/Python314/Scripts/SFML/doc/SFML.tag"
+      - "C:/Users/JaiP/AppData/Local/Programs/Python/Python314/Scripts/share/doc/SFML/SFML.tag"
+      - "C:/Users/JaiP/AppData/Local/Programs/Python/Python314/Scripts/SFML.tag"
+      - "C:/Users/JaiP/AppData/Local/Programs/Python/Python314/SFML/doc/SFML.tag"
+      - "C:/Users/JaiP/AppData/Local/Programs/Python/Python314/share/doc/SFML/SFML.tag"
+      - "C:/Users/JaiP/AppData/Local/Programs/Python/Python314/SFML.tag"
+      - "C:/Users/JaiP/AppData/Local/Microsoft/WindowsApps/SFML/doc/SFML.tag"
+      - "C:/Users/JaiP/AppData/Local/Microsoft/WindowsApps/share/doc/SFML/SFML.tag"
+      - "C:/Users/JaiP/AppData/Local/Microsoft/WindowsApps/SFML.tag"
+      - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/SFML/doc/SFML.tag"
+      - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/share/doc/SFML/SFML.tag"
+      - "C:/Users/JaiP/AppData/Local/PowerToys/DSCModules/SFML.tag"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/SFML/doc/SFML.tag"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/SFML.tag"
+      - "C:/Program Files/Git/usr/bin/core_perl/SFML/doc/SFML.tag"
+      - "C:/Program Files/Git/usr/bin/core_perl/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/Git/usr/bin/core_perl/SFML.tag"
+      - "C:/Program Files/Git/mingw64/include/SFML/doc/SFML.tag"
+      - "C:/Program Files/Git/mingw64/include/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/Git/mingw64/include/SFML.tag"
+      - "C:/Program Files/Git/mingw64/SFML/doc/SFML.tag"
+      - "C:/Program Files/Git/mingw64/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/Git/mingw64/SFML.tag"
+      - "C:/Program Files/include/SFML/doc/SFML.tag"
+      - "C:/Program Files/include/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/include/SFML.tag"
+      - "C:/Program Files/SFML/doc/SFML.tag"
+      - "C:/Program Files/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/SFML.tag"
+      - "C:/Program Files (x86)/include/SFML/doc/SFML.tag"
+      - "C:/Program Files (x86)/include/share/doc/SFML/SFML.tag"
+      - "C:/Program Files (x86)/include/SFML.tag"
+      - "C:/Program Files (x86)/SFML/doc/SFML.tag"
+      - "C:/Program Files (x86)/share/doc/SFML/SFML.tag"
+      - "C:/Program Files (x86)/SFML.tag"
+      - "C:/Program Files/CMake/include/SFML/doc/SFML.tag"
+      - "C:/Program Files/CMake/include/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/CMake/include/SFML.tag"
+      - "C:/Program Files/CMake/SFML/doc/SFML.tag"
+      - "C:/Program Files/CMake/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/CMake/SFML.tag"
+      - "C:/Program Files (x86)/MazeSolverGUI/include/SFML/doc/SFML.tag"
+      - "C:/Program Files (x86)/MazeSolverGUI/include/share/doc/SFML/SFML.tag"
+      - "C:/Program Files (x86)/MazeSolverGUI/include/SFML.tag"
+      - "C:/Program Files (x86)/MazeSolverGUI/SFML/doc/SFML.tag"
+      - "C:/Program Files (x86)/MazeSolverGUI/share/doc/SFML/SFML.tag"
+      - "C:/Program Files (x86)/MazeSolverGUI/SFML.tag"
+      - "C:/msys64/mingw64/SFML/doc/SFML.tag"
+      - "C:/msys64/mingw64/share/doc/SFML/SFML.tag"
+      - "C:/msys64/mingw64/SFML.tag"
+      - "C:/Users/JaiP/Library/Frameworks/SFML/doc/SFML.tag"
+      - "C:/Users/JaiP/Library/Frameworks/share/doc/SFML/SFML.tag"
+      - "C:/Users/JaiP/Library/Frameworks/SFML.tag"
+      - "/Library/Frameworks/SFML/doc/SFML.tag"
+      - "/Library/Frameworks/share/doc/SFML/SFML.tag"
+      - "/Library/Frameworks/SFML.tag"
+      - "/usr/local/SFML/doc/SFML.tag"
+      - "/usr/local/share/doc/SFML/SFML.tag"
+      - "/usr/local/SFML.tag"
+      - "/usr/SFML/doc/SFML.tag"
+      - "/usr/share/doc/SFML/SFML.tag"
+      - "/usr/SFML.tag"
+      - "/sw/SFML/doc/SFML.tag"
+      - "/sw/share/doc/SFML/SFML.tag"
+      - "/sw/SFML.tag"
+      - "/opt/local/SFML/doc/SFML.tag"
+      - "/opt/local/share/doc/SFML/SFML.tag"
+      - "/opt/local/SFML.tag"
+      - "/opt/csw/SFML/doc/SFML.tag"
+      - "/opt/csw/share/doc/SFML/SFML.tag"
+      - "/opt/csw/SFML.tag"
+      - "/opt/SFML/doc/SFML.tag"
+      - "/opt/share/doc/SFML/SFML.tag"
+      - "/opt/SFML.tag"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files\\Java\\jdk-25\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "%VCPKG_ROOT%"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\JaiP\\AppData\\Local\\PowerToys\\DSCModules"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MazeSolverGUI"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files/Git/mingw64"
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/MazeSolverGUI"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:8 (find_package)"
+    name: "SFML"
+    components:
+      -
+        name: "Graphics"
+        required: true
+        found: false
+      -
+        name: "Window"
+        required: true
+        found: false
+      -
+        name: "System"
+        required: true
+        found: false
+    configs:
+      -
+        filename: "SFMLConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "sfml-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "3"
+      version_complete: "3"
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "SFML"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/build/CMakeFiles/pkgRedirects/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/build/CMakeFiles/pkgRedirects/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/JaiP/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/JaiP/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/mingw64/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/mingw64/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/usr/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/usr/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft VS Code/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft VS Code/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Java/jdk-25/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Java/jdk-25/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/msys64/mingw64/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/msys64/mingw64/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "C:/msys64/mingw64/lib/cmake/SFML/SFMLConfig.cmake"
+      mode: "config"
+      version: "3.0.2"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files\\Java\\jdk-25\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "%VCPKG_ROOT%"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\JaiP\\AppData\\Local\\PowerToys\\DSCModules"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MazeSolverGUI"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files/Git/mingw64"
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/MazeSolverGUI"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:9 (find_package)"
+    name: "OpenCV"
+    components:
+      -
+        name: "core"
+        required: true
+        found: true
+      -
+        name: "imgproc"
+        required: true
+        found: true
+      -
+        name: "imgcodecs"
+        required: true
+        found: true
+      -
+        name: "highgui"
+        required: true
+        found: true
+    configs:
+      -
+        filename: "OpenCVConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "opencv-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "OpenCV"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/build/CMakeFiles/pkgRedirects/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/JaiP/OneDrive/Documents/SDF-2 PBL/build/CMakeFiles/pkgRedirects/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/JaiP/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/JaiP/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/mingw64/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/mingw64/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/usr/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/usr/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/JaiP/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft VS Code/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft VS Code/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Java/jdk-25/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Java/jdk-25/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/msys64/mingw64/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/msys64/mingw64/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "C:/msys64/mingw64/lib/cmake/opencv4/OpenCVConfig.cmake"
+      mode: "config"
+      version: "4.13.0"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\JaiP\\bin"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\JaiP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files\\Java\\jdk-25\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "%VCPKG_ROOT%"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Programs\\Python\\Python314"
+        - "C:\\Users\\JaiP\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\JaiP\\AppData\\Local\\PowerToys\\DSCModules"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MazeSolverGUI"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files/Git/mingw64"
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/MazeSolverGUI"
 ...

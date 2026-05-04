@@ -116,24 +116,48 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named maze_solver
+# Target rules for targets named maze_solver_gui
 
 # Build rule for target.
-maze_solver: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 maze_solver
-.PHONY : maze_solver
+maze_solver_gui: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 maze_solver_gui
+.PHONY : maze_solver_gui
 
 # fast build rule for target.
-maze_solver/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver.dir\build.make CMakeFiles/maze_solver.dir/build
-.PHONY : maze_solver/fast
+maze_solver_gui/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver_gui.dir\build.make CMakeFiles/maze_solver_gui.dir/build
+.PHONY : maze_solver_gui/fast
+
+src/App.obj: src/App.cpp.obj
+.PHONY : src/App.obj
+
+# target to build an object file
+src/App.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver_gui.dir\build.make CMakeFiles/maze_solver_gui.dir/src/App.cpp.obj
+.PHONY : src/App.cpp.obj
+
+src/App.i: src/App.cpp.i
+.PHONY : src/App.i
+
+# target to preprocess a source file
+src/App.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver_gui.dir\build.make CMakeFiles/maze_solver_gui.dir/src/App.cpp.i
+.PHONY : src/App.cpp.i
+
+src/App.s: src/App.cpp.s
+.PHONY : src/App.s
+
+# target to generate assembly for a file
+src/App.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver_gui.dir\build.make CMakeFiles/maze_solver_gui.dir/src/App.cpp.s
+.PHONY : src/App.cpp.s
 
 src/BFSSolver.obj: src/BFSSolver.cpp.obj
 .PHONY : src/BFSSolver.obj
 
 # target to build an object file
 src/BFSSolver.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver.dir\build.make CMakeFiles/maze_solver.dir/src/BFSSolver.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver_gui.dir\build.make CMakeFiles/maze_solver_gui.dir/src/BFSSolver.cpp.obj
 .PHONY : src/BFSSolver.cpp.obj
 
 src/BFSSolver.i: src/BFSSolver.cpp.i
@@ -141,7 +165,7 @@ src/BFSSolver.i: src/BFSSolver.cpp.i
 
 # target to preprocess a source file
 src/BFSSolver.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver.dir\build.make CMakeFiles/maze_solver.dir/src/BFSSolver.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver_gui.dir\build.make CMakeFiles/maze_solver_gui.dir/src/BFSSolver.cpp.i
 .PHONY : src/BFSSolver.cpp.i
 
 src/BFSSolver.s: src/BFSSolver.cpp.s
@@ -149,15 +173,39 @@ src/BFSSolver.s: src/BFSSolver.cpp.s
 
 # target to generate assembly for a file
 src/BFSSolver.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver.dir\build.make CMakeFiles/maze_solver.dir/src/BFSSolver.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver_gui.dir\build.make CMakeFiles/maze_solver_gui.dir/src/BFSSolver.cpp.s
 .PHONY : src/BFSSolver.cpp.s
+
+src/Button.obj: src/Button.cpp.obj
+.PHONY : src/Button.obj
+
+# target to build an object file
+src/Button.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver_gui.dir\build.make CMakeFiles/maze_solver_gui.dir/src/Button.cpp.obj
+.PHONY : src/Button.cpp.obj
+
+src/Button.i: src/Button.cpp.i
+.PHONY : src/Button.i
+
+# target to preprocess a source file
+src/Button.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver_gui.dir\build.make CMakeFiles/maze_solver_gui.dir/src/Button.cpp.i
+.PHONY : src/Button.cpp.i
+
+src/Button.s: src/Button.cpp.s
+.PHONY : src/Button.s
+
+# target to generate assembly for a file
+src/Button.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver_gui.dir\build.make CMakeFiles/maze_solver_gui.dir/src/Button.cpp.s
+.PHONY : src/Button.cpp.s
 
 src/DFSSolver.obj: src/DFSSolver.cpp.obj
 .PHONY : src/DFSSolver.obj
 
 # target to build an object file
 src/DFSSolver.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver.dir\build.make CMakeFiles/maze_solver.dir/src/DFSSolver.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver_gui.dir\build.make CMakeFiles/maze_solver_gui.dir/src/DFSSolver.cpp.obj
 .PHONY : src/DFSSolver.cpp.obj
 
 src/DFSSolver.i: src/DFSSolver.cpp.i
@@ -165,7 +213,7 @@ src/DFSSolver.i: src/DFSSolver.cpp.i
 
 # target to preprocess a source file
 src/DFSSolver.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver.dir\build.make CMakeFiles/maze_solver.dir/src/DFSSolver.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver_gui.dir\build.make CMakeFiles/maze_solver_gui.dir/src/DFSSolver.cpp.i
 .PHONY : src/DFSSolver.cpp.i
 
 src/DFSSolver.s: src/DFSSolver.cpp.s
@@ -173,15 +221,39 @@ src/DFSSolver.s: src/DFSSolver.cpp.s
 
 # target to generate assembly for a file
 src/DFSSolver.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver.dir\build.make CMakeFiles/maze_solver.dir/src/DFSSolver.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver_gui.dir\build.make CMakeFiles/maze_solver_gui.dir/src/DFSSolver.cpp.s
 .PHONY : src/DFSSolver.cpp.s
+
+src/ImageExtractor.obj: src/ImageExtractor.cpp.obj
+.PHONY : src/ImageExtractor.obj
+
+# target to build an object file
+src/ImageExtractor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver_gui.dir\build.make CMakeFiles/maze_solver_gui.dir/src/ImageExtractor.cpp.obj
+.PHONY : src/ImageExtractor.cpp.obj
+
+src/ImageExtractor.i: src/ImageExtractor.cpp.i
+.PHONY : src/ImageExtractor.i
+
+# target to preprocess a source file
+src/ImageExtractor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver_gui.dir\build.make CMakeFiles/maze_solver_gui.dir/src/ImageExtractor.cpp.i
+.PHONY : src/ImageExtractor.cpp.i
+
+src/ImageExtractor.s: src/ImageExtractor.cpp.s
+.PHONY : src/ImageExtractor.s
+
+# target to generate assembly for a file
+src/ImageExtractor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver_gui.dir\build.make CMakeFiles/maze_solver_gui.dir/src/ImageExtractor.cpp.s
+.PHONY : src/ImageExtractor.cpp.s
 
 src/Maze.obj: src/Maze.cpp.obj
 .PHONY : src/Maze.obj
 
 # target to build an object file
 src/Maze.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver.dir\build.make CMakeFiles/maze_solver.dir/src/Maze.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver_gui.dir\build.make CMakeFiles/maze_solver_gui.dir/src/Maze.cpp.obj
 .PHONY : src/Maze.cpp.obj
 
 src/Maze.i: src/Maze.cpp.i
@@ -189,7 +261,7 @@ src/Maze.i: src/Maze.cpp.i
 
 # target to preprocess a source file
 src/Maze.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver.dir\build.make CMakeFiles/maze_solver.dir/src/Maze.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver_gui.dir\build.make CMakeFiles/maze_solver_gui.dir/src/Maze.cpp.i
 .PHONY : src/Maze.cpp.i
 
 src/Maze.s: src/Maze.cpp.s
@@ -197,15 +269,63 @@ src/Maze.s: src/Maze.cpp.s
 
 # target to generate assembly for a file
 src/Maze.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver.dir\build.make CMakeFiles/maze_solver.dir/src/Maze.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver_gui.dir\build.make CMakeFiles/maze_solver_gui.dir/src/Maze.cpp.s
 .PHONY : src/Maze.cpp.s
+
+src/MazeRenderer.obj: src/MazeRenderer.cpp.obj
+.PHONY : src/MazeRenderer.obj
+
+# target to build an object file
+src/MazeRenderer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver_gui.dir\build.make CMakeFiles/maze_solver_gui.dir/src/MazeRenderer.cpp.obj
+.PHONY : src/MazeRenderer.cpp.obj
+
+src/MazeRenderer.i: src/MazeRenderer.cpp.i
+.PHONY : src/MazeRenderer.i
+
+# target to preprocess a source file
+src/MazeRenderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver_gui.dir\build.make CMakeFiles/maze_solver_gui.dir/src/MazeRenderer.cpp.i
+.PHONY : src/MazeRenderer.cpp.i
+
+src/MazeRenderer.s: src/MazeRenderer.cpp.s
+.PHONY : src/MazeRenderer.s
+
+# target to generate assembly for a file
+src/MazeRenderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver_gui.dir\build.make CMakeFiles/maze_solver_gui.dir/src/MazeRenderer.cpp.s
+.PHONY : src/MazeRenderer.cpp.s
+
+src/UIPanel.obj: src/UIPanel.cpp.obj
+.PHONY : src/UIPanel.obj
+
+# target to build an object file
+src/UIPanel.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver_gui.dir\build.make CMakeFiles/maze_solver_gui.dir/src/UIPanel.cpp.obj
+.PHONY : src/UIPanel.cpp.obj
+
+src/UIPanel.i: src/UIPanel.cpp.i
+.PHONY : src/UIPanel.i
+
+# target to preprocess a source file
+src/UIPanel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver_gui.dir\build.make CMakeFiles/maze_solver_gui.dir/src/UIPanel.cpp.i
+.PHONY : src/UIPanel.cpp.i
+
+src/UIPanel.s: src/UIPanel.cpp.s
+.PHONY : src/UIPanel.s
+
+# target to generate assembly for a file
+src/UIPanel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver_gui.dir\build.make CMakeFiles/maze_solver_gui.dir/src/UIPanel.cpp.s
+.PHONY : src/UIPanel.cpp.s
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver.dir\build.make CMakeFiles/maze_solver.dir/src/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver_gui.dir\build.make CMakeFiles/maze_solver_gui.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -213,7 +333,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver.dir\build.make CMakeFiles/maze_solver.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver_gui.dir\build.make CMakeFiles/maze_solver_gui.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -221,7 +341,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver.dir\build.make CMakeFiles/maze_solver.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver_gui.dir\build.make CMakeFiles/maze_solver_gui.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -232,16 +352,31 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... maze_solver
+	@echo ... maze_solver_gui
+	@echo ... src/App.obj
+	@echo ... src/App.i
+	@echo ... src/App.s
 	@echo ... src/BFSSolver.obj
 	@echo ... src/BFSSolver.i
 	@echo ... src/BFSSolver.s
+	@echo ... src/Button.obj
+	@echo ... src/Button.i
+	@echo ... src/Button.s
 	@echo ... src/DFSSolver.obj
 	@echo ... src/DFSSolver.i
 	@echo ... src/DFSSolver.s
+	@echo ... src/ImageExtractor.obj
+	@echo ... src/ImageExtractor.i
+	@echo ... src/ImageExtractor.s
 	@echo ... src/Maze.obj
 	@echo ... src/Maze.i
 	@echo ... src/Maze.s
+	@echo ... src/MazeRenderer.obj
+	@echo ... src/MazeRenderer.i
+	@echo ... src/MazeRenderer.s
+	@echo ... src/UIPanel.obj
+	@echo ... src/UIPanel.i
+	@echo ... src/UIPanel.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

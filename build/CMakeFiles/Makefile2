@@ -62,11 +62,11 @@ CMAKE_BINARY_DIR = "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\build"
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/maze_solver.dir/all
+all: CMakeFiles/maze_solver_gui.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/maze_solver.dir/codegen
+codegen: CMakeFiles/maze_solver_gui.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -74,40 +74,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/maze_solver.dir/clean
+clean: CMakeFiles/maze_solver_gui.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/maze_solver.dir
+# Target rules for target CMakeFiles/maze_solver_gui.dir
 
 # All Build rule for target.
-CMakeFiles/maze_solver.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver.dir\build.make CMakeFiles/maze_solver.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver.dir\build.make CMakeFiles/maze_solver.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\build\CMakeFiles" --progress-num=1,2,3,4,5 "Built target maze_solver"
-.PHONY : CMakeFiles/maze_solver.dir/all
+CMakeFiles/maze_solver_gui.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver_gui.dir\build.make CMakeFiles/maze_solver_gui.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver_gui.dir\build.make CMakeFiles/maze_solver_gui.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\build\CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target maze_solver_gui"
+.PHONY : CMakeFiles/maze_solver_gui.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/maze_solver.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\build\CMakeFiles" 5
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/maze_solver.dir/all
+CMakeFiles/maze_solver_gui.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\build\CMakeFiles" 10
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/maze_solver_gui.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\build\CMakeFiles" 0
-.PHONY : CMakeFiles/maze_solver.dir/rule
+.PHONY : CMakeFiles/maze_solver_gui.dir/rule
 
 # Convenience name for target.
-maze_solver: CMakeFiles/maze_solver.dir/rule
-.PHONY : maze_solver
+maze_solver_gui: CMakeFiles/maze_solver_gui.dir/rule
+.PHONY : maze_solver_gui
 
 # codegen rule for target.
-CMakeFiles/maze_solver.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver.dir\build.make CMakeFiles/maze_solver.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\build\CMakeFiles" --progress-num=1,2,3,4,5 "Finished codegen for target maze_solver"
-.PHONY : CMakeFiles/maze_solver.dir/codegen
+CMakeFiles/maze_solver_gui.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver_gui.dir\build.make CMakeFiles/maze_solver_gui.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\JaiP\OneDrive\Documents\SDF-2 PBL\build\CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10 "Finished codegen for target maze_solver_gui"
+.PHONY : CMakeFiles/maze_solver_gui.dir/codegen
 
 # clean rule for target.
-CMakeFiles/maze_solver.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver.dir\build.make CMakeFiles/maze_solver.dir/clean
-.PHONY : CMakeFiles/maze_solver.dir/clean
+CMakeFiles/maze_solver_gui.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze_solver_gui.dir\build.make CMakeFiles/maze_solver_gui.dir/clean
+.PHONY : CMakeFiles/maze_solver_gui.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
